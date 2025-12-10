@@ -7,8 +7,7 @@
 import { themes as prismThemes } from "prism-react-renderer";
 const modulConfig = require("./modul.config");
 const remarkEmbedPlugin = require("./src/plugins/remark-embed");
-
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+import rehypeRaw from 'rehype-raw';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -64,6 +63,21 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: `${modulConfig.url}/${modulConfig.repoName}`,
           beforeDefaultRemarkPlugins: [remarkEmbedPlugin],
+          rehypePlugins: [
+            [
+              rehypeRaw,
+              {
+                passThrough: [
+                  'html',
+                  'mdxFlowExpression',
+                  'mdxJsxFlowElement',
+                  'mdxJsxTextElement',
+                  'mdxTextExpression',
+                  'mdxjsEsm'
+                ]
+              }
+            ]
+          ]
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -76,12 +90,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
-      colorMode: {
-        respectPrefersColorScheme: true,
-      },
+      // image: "img/docusaurus-social-card.jpg",
       mermaid: {
         theme: { light: "neutral", dark: "forest" },
+      },
+      colorMode: {
+        respectPrefersColorScheme: true,
       },
       navbar: {
         title: modulConfig.title,
@@ -105,47 +119,6 @@ const config = {
       },
       footer: {
         style: "dark",
-        links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "Tutorial",
-                to: "/docs/intro",
-              },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "X",
-                href: "https://x.com/docusaurus",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
-              },
-            ],
-          },
-        ],
         copyright: `Copyright © ${new Date().getFullYear()} BBZBL, Made with ❤️ in Pratteln`,
       },
       prism: {

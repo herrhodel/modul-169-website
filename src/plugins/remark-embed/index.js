@@ -1,3 +1,4 @@
+// plugins/remark-embed-plugin.js
 const { visit } = require("unist-util-visit");
 
 function convertGitHubBlobToRawUrl(url) {
@@ -20,6 +21,33 @@ function convertGitHubBlobToRawUrl(url) {
   return url;
 }
 
+function convertGitHubToUrl(url) {
+  if (url.startsWith("/")) return `https://github.com${url.replace("#", "?plain=1#")}`
+  return url.replace("#", "?plain=1#");
+}
+
+
+function detectLanguage(path) {
+  const filename = path?.split("/").pop();
+  if (filename?.endsWith("file")) {
+    return path;
+  } else if (filename.includes("file.")) {
+    return filename?.split(".")[0];
+  } else {
+    return (
+      {
+        md: "markdown_inline",
+        js: "javascript",
+        ts: "typescript",
+        java: "java",
+        yaml: "yaml",
+        yml: "yaml",
+        json: "json",
+      }[filename.split(".")?.[1]] || "text"
+    );
+  }
+}
+
 /**
  * Ein Remark-Plugin, das spezielle Blöcke findet und Code von GitHub abruft.
  */
@@ -29,67 +57,117 @@ function remarkEmbedPlugin() {
 
   return async (tree) => {
     const nodesToFetch = [];
-    visit(tree, ["leafDirective"], (node, _index, parent) => {
+    visit(tree, ["leafDirective"], (node, index, parent) => {
       if (node.name === "embed") {
         const url = node.attributes.url;
-        const lang = node.attributes.lang || "markdown";
+        const lang = node.attributes.lang;
+        const nolink =
+          node.attributes.nolink === "true" ||
+          node.attributes.nolink === ""; 
         const title = node.children[0]?.value || undefined;
 
         if (url) {
-          nodesToFetch.push({ node, url, lang, title });
+          // Speichere auch parent und index, um das Element später korrekt einzufügen
+          nodesToFetch.push({
+            node,
+            url,
+            lang,
+            title,
+            nolink,
+            parent,
+            index,
+          });
         }
       }
     });
 
     // 2. Führe alle Fetch-Operationen parallel aus und warte darauf
     await Promise.all(
-      nodesToFetch.map(async ({ node, url, lang, title }) => {
-        try {
-          const rawUrl = convertGitHubBlobToRawUrl(url);
-          const response = await fetch(rawUrl);
-          if (!response.ok) {
-            throw new Error(
-              `Failed to fetch code from ${rawUrl}: ${response.statusText}`,
-            );
-          }
-          const codeContent = await response.text();
+      nodesToFetch.map(
+        async ({ node, url, lang, title, nolink, parent, index }) => {
+          try {
+            const rawUrl = convertGitHubBlobToRawUrl(url);
+            const response = await fetch(rawUrl);
+            if (!response.ok) {
+              throw new Error(
+                `Failed to fetch code from ${rawUrl}: ${response.statusText}`,
+              );
+            }
+            const codeContent = await response.text();
+            const lineContent = codeContent.split('\n');
+            const path = url.split("#")[0];
+            const hash = url.split("#")?.[1];
 
-          if (lang === "markdown") {
-            const embeddedTree = unified.parse(codeContent);
+            lines = hash 
+              ? hash.includes("-") 
+                ? hash.replaceAll("L", "").split("-")
+                : [hash.replaceAll("L", ""), hash.replace("L", "")]
+              : null;
+            const linesToParse = lines 
+              ? lineContent.slice(Number(lines[0] - 1), Number(lines[1])).join('\n')
+              : codeContent;
+
+            if (lang === undefined) lang = detectLanguage(path);
+
+            if (lang === "markdown_inline") {
+              const embeddedTree = unified.parse(linesToParse);
+              
+              Object.assign(node, {
+                children: embeddedTree.children.concat([
+                  !nolink 
+                    ? {
+                      type: "html",
+                      value: `<p style="text-align: right; font-size: 0.8em; color: #666; margin-top: 5px;">
+                        Quelle: <a href="${convertGitHubToUrl(url)}" target="_blank" rel="noopener noreferrer">GitHub</a>
+                      </p>`
+                    }
+                    : {}
+                ]),
+                name: undefined,
+                attributes: undefined,
+              });
+            } else {
+              const urlArray = rawUrl.split("/main");
+              const filename = title ? title : urlArray[urlArray.length - 1];
+
+              Object.assign(node, {
+                type: "root",
+                children: [
+                  {
+                    type: "code",
+                    lang: lang,
+                    value: linesToParse,
+                    children: undefined,
+                    name: undefined,
+                    meta: `title="${filename}"`, 
+                  },
+                  !nolink 
+                    ? {
+                      type: "html",
+                      value: `<p style="text-align: right; font-size: 0.8em; color: #666; margin-top: 5px;">
+                        Quelle: <a href="${convertGitHubToUrl(url)}" target="_blank" rel="noopener noreferrer">GitHub</a>
+                      </p>`
+                    }
+                    : {}
+                ]
+              });
+            }
+          } catch (error) {
+            console.error(
+              `Error fetching GitHub code for URL ${url}:`,
+              error.message,
+            );
+            // Ersetze durch einen Fehler-Kommentar im HTML
             Object.assign(node, {
-              type: "root",
-              children: embeddedTree.children,
+              type: "html",
+              value: `<!-- FAILED TO LOAD CODE FROM ${url} -->`,
+              children: undefined,
               name: undefined,
               attributes: undefined,
             });
-          } else {
-            const urlArray = rawUrl.split("/main");
-            const filename = urlArray[urlArray.length - 1];
-
-            Object.assign(node, {
-              type: "code",
-              lang: lang,
-              value: codeContent,
-              children: undefined, // Code-Blöcke haben keine Kinder
-              name: undefined,
-              meta: `title="${title ? title : filename}"`,
-            });
           }
-        } catch (error) {
-          console.error(
-            `Error fetching GitHub code for URL ${url}:`,
-            error.message,
-          );
-          // Ersetze durch einen Fehler-Kommentar im HTML
-          Object.assign(node, {
-            type: "html",
-            value: `<!-- FAILED TO LOAD CODE FROM ${url} -->`,
-            children: undefined,
-            name: undefined,
-            attributes: undefined,
-          });
-        }
-      }),
+        },
+      ),
     );
   };
 }
