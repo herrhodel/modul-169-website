@@ -1,7 +1,7 @@
 module.exports = {
   title: "Modul 169",
   tagline: "DevOps-Prozesse mit Tools unterstützen",
-  repoName: "modul-169",
+  repoName: "modul-169-website",
   url: "https://herrhodel.github.io",
   organizationName: "herrhodel",
   pdfs: [
