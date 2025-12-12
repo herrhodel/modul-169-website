@@ -1,5 +1,5 @@
-position: 4
+position: 3
 label: 'Tipps'
 collapsible: true # make the category collapsible
 collapsed: true # keep the category open by default
-# className: primary
+# className: caution
