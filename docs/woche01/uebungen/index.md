@@ -8,8 +8,8 @@ sidebar_position: 4
 
 Damit wir Docker verwenden können, müssen wir es zuerst installieren. Bei
 Windows und MacOS geschieht dies über Docker Desktop, auf Linux kann man Docker
-oder Docker Desktop verwenden. Wenn man Docker Desktop verwendet, läuft Docker
-in einer virtuellen Maschine.
+oder Docker Desktop verwenden. Wenn man Docker Desktop verwendet, läuft Docker in
+einer virtuellen Maschine.
 
 Wählen Sie die für Sie passende Anleitung unten aus und installieren Sie Docker
 Desktop oder Docker.

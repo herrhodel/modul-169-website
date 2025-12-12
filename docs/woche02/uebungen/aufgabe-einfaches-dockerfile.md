@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Aufgaben 1 - Einfaches Dockerfile
+# Einfaches Dockerfile
 
 ::embed{url=https://github.com/herrhodel/modul-169-exercises/blob/main/02-dockerimage/uebung01/README.md}
 ::embed{url=https://github.com/herrhodel/modul-169-exercises/blob/main/02-dockerimage/uebung02/README.md}

@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Aufgaben 3 - Docker Hub Tutorial
+# Docker Hub Tutorial
 
 In diesem Tutorial lernen Sie, wie Sie Docker-Images korrekt taggen und in Ihr
 eigenes Repository auf Docker Hub pushen können.
