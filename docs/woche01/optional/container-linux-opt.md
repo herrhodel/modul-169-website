@@ -1,8 +1,3 @@
----
-sidebar_position: 3
-sidebar_class_name: success
----
-
 # 🦸‍♀️ Linux Bausteine auf denen Container aufbauen
 
 :::info
