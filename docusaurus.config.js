@@ -98,6 +98,34 @@ const config = {
             label: "Unterlagen",
           },
           {
+            type: "dropdown",
+            label: "Referenzen",
+            position: "left",
+            href: `/${modulConfig.repoName}/docs/category/referenzen`,
+            items: [
+              {
+                label: "Dockerfile",
+                href: `/${modulConfig.repoName}/docs/woche01/docker-referenz`,
+              },
+              {
+                label: "Docker CLI",
+                href: `/${modulConfig.repoName}/docs/woche01/docker-referenz`,
+              },
+              {
+                label: "Docker Volume",
+                href: `/${modulConfig.repoName}/docs/woche03/docker-volume-referenz`,
+              },
+              {
+                label: "Docker Network",
+                href: `/${modulConfig.repoName}/docs/woche01/docker-referenz`,
+              },
+              {
+                label: "Docker Compose",
+                href: `/${modulConfig.repoName}/docs/woche06/docker-compose-referenz`,
+              },
+            ],
+          },
+          {
             href: `https://github.com/${modulConfig.organizationName}/${modulConfig.repoName}`,
             label: "GitHub",
             position: "right",
