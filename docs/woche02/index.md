@@ -6,6 +6,9 @@ sidebar_position: 1
 
 ## Ziel
 
+3. Erstellt und dokumentiert den für die Service-Breitstellung erforderlichen
+   Code versioniert.
+
 ## Präsentation
 
 ## Themen

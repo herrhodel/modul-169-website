@@ -6,6 +6,8 @@ sidebar_position: 1
 
 ## Ziel
 
+7. Administriert und überwacht die bereitgestellten Services.
+
 ## Präsentation
 
 ## Themen

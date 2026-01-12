@@ -4,7 +4,74 @@ sidebar_position: 1
 
 # Grundlagen der Virtualisierung
 
-## Warum Container?
+## Bare Metal
+
+Bevor Virtualisierung erfunden wurde, liefen alle Programme direkt auf dem
+Host-System. Die Terminologie, die viele Leute dafür verwenden, ist "Bare
+Metal". Du bist wahrscheinlich mit dem Betrieb auf Bare Metal vertraut, denn das
+ist es, was du tust, wenn du ein Programm auf deinen Laptop/Desktop-Computer
+installierst.
+
+Bei einem Bare-Metal-System werden das Betriebssystem, Binärdateien/Bibliotheken
+und Anwendungen direkt auf die physische Hardware installiert und ausgeführt.
+
+![bare-metal](img/bare-metal.png)
+
+Das ist einfach zu verstehen und der direkte Zugriff auf die Hardware kann für
+spezifische Konfigurationen nützlich sein, kann aber zu folgenden Problemen
+führen:
+
+- Viele Abhängigkeitskonflikte.
+- Niedrige Nutzungseffizienz.
+- Grosser Wirkungsradius von Änderungen.
+- Langsames Starten und Herunterfahren (Minuten).
+- Sehr langsames Bereitstellen neuer Systeme (Stunden bis Tage).
+
+## Virtuelle Maschinen
+
+Virtuelle Maschinen verwenden ein System namens "Hypervisor", das die Ressourcen
+des Hosts in mehrere isolierte virtuelle Hardwarekonfigurationen aufteilen kann,
+die dann wie eigene Systeme behandelt werden können (jeweils mit einem
+Betriebssystem, Binärdateien/Bibliotheken und Anwendungen).
+
+![Virtuelle Maschinen](img/virtuelle-maschinen.png)
+
+Dies hilft, einige der Herausforderungen zu verbessern, die Bare Metal mit sich
+bringt:
+
+- Keine Abhängigkeitskonflikte.
+- Bessere Nutzungseffizienz.
+- Kleiner Wirkungsradius von Änderungen.
+- Schnelleres Starten und Herunterfahren (Minuten).
+- Schnelleres Bereitstellen neuer Systeme (Minuten).
+
+## Container
+
+Container ähneln virtuellen Maschinen insofern, als sie eine isolierte Umgebung
+für die Installation und Konfiguration von Binärdateien/Bibliotheken bieten,
+aber anstatt auf Hardwareebene zu virtualisieren, nutzen Container native
+Linux-Funktionen (cgroups + namespaces), um diese Isolation zu bieten und
+dennoch denselben Kernel zu teilen.
+
+![Container](img/container.png)
+
+Dieser Ansatz führt dazu, dass Container "leichtgewichtiger" sind als virtuelle
+Maschinen, aber nicht dasselbe Niveau an Isolation bieten:
+
+- Keine Abhängigkeitskonflikte.
+- Noch bessere Nutzungseffizienz.
+- Kleiner Wirkungsradius von Änderungen.
+- Noch schnelleres Starten und Herunterfahren (Sekunden).
+- Noch schnelleres Bereitstellen, Starten und Stoppen (Sekunden).
+- Leicht genug, um in der Entwicklung verwendet zu werden!
+
+:::info
+
+- Unterstützt als GUI nur Web-Technologien!
+
+:::
+
+## Containerisierung von Anwendungen
 
 In der heutigen Softwareentwicklung gibt es viele verschiedene Möglichkeiten,
 wie wir Anwendungen erstellen und bereitstellen können. Eine beliebte Methode
@@ -51,6 +118,21 @@ zu funktionieren.
   machen zu müssen, ob die Anwendung auf einem anderen Computer oder in einer
   anderen Umgebung genauso funktioniert.
 
+### Limitationen
+
+Da Container kein natives GUI besitzen ist es nicht möglich
+Desktop-Applikationen zu Containerisieren. Das GUI wird in Container
+üblicherweise als Webapplikation bereitgestellt. Dies hat den Vorteil, dass es
+Plattformunabhängig funktioniert.
+
+Da HTML Plattformunabhängig ist, bringt es den Nachteil mit sich, dass das GUI
+keine natives Erlebnis bietet und sich nicht nahtlos ins Betriebssystem
+einbindet.
+
+Auch sind Applikationen wie Spiele sowie für die Foto/Video-Bearbeitung in
+Webtechnologien schwierig umzusetzen. Hier wird jedoch mittelfristig mit
+[WebAssembly](https://webassembly.org/) erstaunliches funktionieren.
+
 ### Fazit
 
 Die Containerisierung von Applikationen bietet viele Vorteile, die die
@@ -59,66 +141,3 @@ effizienter machen. Sie sorgt dafür, dass Anwendungen überall gleich
 funktionieren, spart Ressourcen und ermöglicht eine schnelle Anpassung an neue
 Anforderungen. Für Anfänger in der Softwareentwicklung ist es eine wertvolle
 Technik, die das Arbeiten mit Anwendungen erheblich erleichtert.
-
-## Geschichte der Virtualisierung
-
-### Bare Metal
-
-Bevor Virtualisierung erfunden wurde, liefen alle Programme direkt auf dem
-Host-System. Die Terminologie, die viele Leute dafür verwenden, ist "Bare
-Metal". Du bist wahrscheinlich mit dem Betrieb auf Bare Metal vertraut, denn das
-ist es, was du tust, wenn du ein Programm auf deinen Laptop/Desktop-Computer
-installierst.
-
-Bei einem Bare-Metal-System werden das Betriebssystem, Binärdateien/Bibliotheken
-und Anwendungen direkt auf die physische Hardware installiert und ausgeführt.
-
-![bare-metal](img/bare-metal.png)
-
-Das ist einfach zu verstehen und der direkte Zugriff auf die Hardware kann für
-spezifische Konfigurationen nützlich sein, kann aber zu folgenden Problemen
-führen:
-
-- Viele Abhängigkeitskonflikte.
-- Niedrige Nutzungseffizienz.
-- Grosser Wirkungsradius von Änderungen.
-- Langsames Starten und Herunterfahren (Minuten).
-- Sehr langsames Bereitstellen neuer Systeme (Stunden bis Tage).
-
-### Virtuelle Maschinen
-
-Virtuelle Maschinen verwenden ein System namens "Hypervisor", das die Ressourcen
-des Hosts in mehrere isolierte virtuelle Hardwarekonfigurationen aufteilen kann,
-die dann wie eigene Systeme behandelt werden können (jeweils mit einem
-Betriebssystem, Binärdateien/Bibliotheken und Anwendungen).
-
-![Virtuelle Maschinen](img/virtuelle-maschinen.png)
-
-Dies hilft, einige der Herausforderungen zu verbessern, die Bare Metal mit sich
-bringt:
-
-- Keine Abhängigkeitskonflikte.
-- Bessere Nutzungseffizienz.
-- Kleiner Wirkungsradius von Änderungen.
-- Schnelleres Starten und Herunterfahren (Minuten).
-- Schnelleres Bereitstellen neuer Systeme (Minuten).
-
-### Container
-
-Container ähneln virtuellen Maschinen insofern, als sie eine isolierte Umgebung
-für die Installation und Konfiguration von Binärdateien/Bibliotheken bieten,
-aber anstatt auf Hardwareebene zu virtualisieren, nutzen Container native
-Linux-Funktionen (cgroups + namespaces), um diese Isolation zu bieten und
-dennoch denselben Kernel zu teilen.
-
-![Container](img/container.png)
-
-Dieser Ansatz führt dazu, dass Container "leichtgewichtiger" sind als virtuelle
-Maschinen, aber nicht dasselbe Niveau an Isolation bieten:
-
-- Keine Abhängigkeitskonflikte.
-- Noch bessere Nutzungseffizienz.
-- Kleiner Wirkungsradius von Änderungen.
-- Noch schnelleres Starten und Herunterfahren (Sekunden).
-- Noch schnelleres Bereitstellen, Starten und Stoppen (Sekunden).
-- Leicht genug, um in der Entwicklung verwendet zu werden!

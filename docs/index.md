@@ -35,6 +35,22 @@ sidebar_label: 🏠 Modul 169
 
 - [Offizielle Webseite: LBV](https://www.modulbaukasten.ch/module/169?lbv=1)
 
+## Handlungsziele
+
+1. Definiert die erforderliche Umgebung für die automatisierte Bereitstellung
+   von Services.
+2. Dokumentiert den logischen und physischen Aufbau der Umgebung in einem
+   Netzwerkschema mit servicespezifischen Angaben
+3. Erstellt und dokumentiert den für die Service-Breitstellung erforderlichen
+   Code versioniert.
+4. Plant und realisiert die servicespezifischen Sicherheitsanforderungen.
+5. Erstellt die erforderlichen Datenverbindungen zwischen unterschiedlichen
+   Services.
+6. Stellt die Services in der definierten Umgebung reproduzierbar bereit.
+7. Administriert und überwacht die bereitgestellten Services.
+8. Versteht anhand der Dokumentation die Funktionalität der Services und
+   unterstützt bei der Fehlersuche.
+
 ## Recherche
 
 - Mastodon [linux-de.com](https://linux-de.com/?p=12511)

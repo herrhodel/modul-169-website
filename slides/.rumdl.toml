@@ -1,0 +1,2 @@
+# disable specific rules
+disabled-rules = ["MD025"]
