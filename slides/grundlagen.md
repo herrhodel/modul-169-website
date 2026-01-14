@@ -87,15 +87,70 @@ Alle Themen vom Modul
 - **Experimentieren** Sie
 - Rückmeldung an mich, wenn etwas nicht in Ordnung ist
 - **Nutzen Sie die Zeit** während dem Unterricht
-  - _(gamen und shoppen können Sie zu Hause)_
 
 ---
 
-# Was ist mir **besonders** wichtig 💖
+<!-- _class: big center -->
 
-- Gutes Klima untereinander
+# Regeln 👮‍♀️
 
-- **Mobbing wird nicht geduldet** und unverzüglich dem Arbeitgeber gemeldet
+## _INP24C_ spezial
+
+---
+
+# §1 Fokus und Geräte
+
+::: columns
+
+Die **digitalen Geräte**: 📱, 💻, etc.
+
+- immer nur auf **Aufforderung der Lehrkraft**
+- immer nur zur **Bearbeitung der gestellten Aufgaben**
+
+**Private Aktivitäten sind untersagt**: _unter anderem Social Media, Spiele,
+Videos, private E-Mails/Chats, Surfen, Shoppen, etc._
+
+::: split s1
+
+### 1. Verwarnung
+
+- **Mündliche** Ermahnung durch Lehrperson
+
+### 2. Verwarnung
+
+- 👨‍🏫 Das Gerät ist für den **Rest der Lektion bei der Lehrperson** zu
+  hinterlegen.
+- 🚨 **Absenz**, wenn dadurch nicht gearbeitet werden kann!
+- 🗣️ **Meldung an den Berufsbildner**.
+
+:::
+
+---
+
+# §2 Ruhe und Umgangsformen
+
+::: columns
+
+Die Konzentration der Mitschüler muss gewährleistet sein.
+
+- **Lärm ist zu vermeiden**<br/> z.B. laute Gespräche, Geräusche, Rufen.
+
+- **Freundlicher, höflicher und respektvoller** Umgangston
+
+::: split s1
+
+### 1. Verwarnung
+
+- **Mündliche** Ermahnung durch Lehrperson.
+- Evtl. auf separaten Arbeitsplatz versetzen.
+
+### 2. Verwarnung
+
+- 🚪 Für den Rest der Lektion **aus dem Unterricht gewiesen**.
+- 🚨 Die gesamte Lektion gilt als **Absenz**.
+- 🗣️ **Meldung an den Berufsbildner**.
+
+:::
 
 ---
 
@@ -172,17 +227,21 @@ Lesen Sie auf der Modulwebseite Woche 1
 ::: split
 
 - :dna: Einzelarbeit
-- :clock1: Bis zur grossen Pause
+- :clock1: 15min
 
 :::
 
 ---
+
+<!-- _class: center -->
 
 # Bare Metal
 
 ![inline height:500](img/bare-metal.png)
 
 ---
+
+<!-- _class: center -->
 
 # Virtuelle Maschine / Container
 
@@ -201,7 +260,7 @@ Lesen Sie auf der Modulwebseite Woche 1
 ::: split
 
 - :dna: Einzelarbeit
-- :clock1: Bis zur grossen Pause
+- :clock1: 15min
 
 :::
 
@@ -221,6 +280,18 @@ Lesen Sie auf der Modulwebseite Woche 1
 - :clock1: Bis zur grossen Pause
 
 :::
+
+---
+
+<!-- _class: center -->
+
+![inline height:500](./img/docker-components.png)
+
+---
+
+<!-- _class: center -->
+
+![inline height:500](./img/docker-state-diagram.png)
 
 ---
 
