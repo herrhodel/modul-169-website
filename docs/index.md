@@ -10,7 +10,7 @@ sidebar_label: 🏠 Modul 169
 |                 Woche                  |     Datum      | Thema                                 | Leistungsbewertung                                                           |
 | :------------------------------------: | :------------: | :------------------------------------ | :--------------------------------------------------------------------------- |
 |   [Woche&nbsp;1](./woche01/index.md)   |   27.10.2025   | Modulübersicht / Container Grundlagen |                                                                              |
-|   [Woche&nbsp;2](./woche02/index.md)   |   03.11.2025   | Dockerimages                          |                                                                              |
+|   [Woche&nbsp;2](./woche02/index.md)   |   03.11.2025   | Git / GitHub / Dockerimages           |                                                                              |
 |   [Woche&nbsp;3](./woche03/index.md)   |   10.11.2025   | Dateimanagement                       |                                                                              |
 |   [Woche&nbsp;4](./woche04/index.md)   |   17.11.2025   | Arbeiten an Aufgaben                  | [**LB1: Theoretische Grundlagen von Container**](/docs/beurteilungen/LB1.md) |
 |   [Woche&nbsp;5](./woche05/index.md)   |   24.11.2025   | Netzwerk                              |                                                                              |
@@ -18,6 +18,22 @@ sidebar_label: 🏠 Modul 169
 |   [Woche&nbsp;7](./woche07/index.md)   |   08.12.2025   | Monitoring                            |                                                                              |
 |   [Woche&nbsp;8](./woche08/index.md)   |   15.12.2025   | Open-Source-Projekt "dockerisieren"   |                                                                              |
 | [**Woche&nbsp;9**](./woche09/index.md) | **05.01.2026** | **Modulabschlussprüfung**             | [**LB2: Praktische Prüfung**](/docs/beurteilungen/LB2.md)                    |
+
+## Handlungsziele
+
+1. Definiert die erforderliche Umgebung für die automatisierte Bereitstellung
+   von Services.
+2. Dokumentiert den logischen und physischen Aufbau der Umgebung in einem
+   Netzwerkschema mit servicespezifischen Angaben.
+3. Erstellt und dokumentiert den für die Service-Breitstellung erforderlichen
+   Code versioniert.
+4. Plant und realisiert die servicespezifischen Sicherheitsanforderungen.
+5. Erstellt die erforderlichen Datenverbindungen zwischen unterschiedlichen
+   Services.
+6. Stellt die Services in der definierten Umgebung reproduzierbar bereit.
+7. Administriert und überwacht die bereitgestellten Services.
+8. Versteht anhand der Dokumentation die Funktionalität der Services und
+   unterstützt bei der Fehlersuche.
 
 ## Modulidentifikation
 
@@ -34,22 +50,6 @@ sidebar_label: 🏠 Modul 169
 <iframe src="https://www.modulbaukasten.ch/module/169/1/de-DE?title=Services-mit-Containern-bereitstellen&lbv=1"></iframe>
 
 - [Offizielle Webseite: LBV](https://www.modulbaukasten.ch/module/169?lbv=1)
-
-## Handlungsziele
-
-1. Definiert die erforderliche Umgebung für die automatisierte Bereitstellung
-   von Services.
-2. Dokumentiert den logischen und physischen Aufbau der Umgebung in einem
-   Netzwerkschema mit servicespezifischen Angaben
-3. Erstellt und dokumentiert den für die Service-Breitstellung erforderlichen
-   Code versioniert.
-4. Plant und realisiert die servicespezifischen Sicherheitsanforderungen.
-5. Erstellt die erforderlichen Datenverbindungen zwischen unterschiedlichen
-   Services.
-6. Stellt die Services in der definierten Umgebung reproduzierbar bereit.
-7. Administriert und überwacht die bereitgestellten Services.
-8. Versteht anhand der Dokumentation die Funktionalität der Services und
-   unterstützt bei der Fehlersuche.
 
 ## Recherche
 

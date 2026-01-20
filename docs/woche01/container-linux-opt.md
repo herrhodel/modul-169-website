@@ -42,8 +42,11 @@ beispielsweise folgendes nutzen darf:
 - Bis zu YY MB Arbeitsspeicher verwenden (memory.limit_in_bytes).
 - Lesevorgänge auf ZZ MB/s drosseln (blkio.throttle.read_bps_device).
 
-Cgroups auf einem Linux-Computer:
+**Cgroups auf einem Linux-Computer:**
+
 ![Cgroups auf einem Linux-Computer](img/cgroups.png)
+
+- [Mehr infos für interessierte](https://linux-de.com/?p=17980)
 
 ## Namespaces
 
@@ -60,9 +63,11 @@ Container einem anderen Benutzer auf dem Host zuordnen (unter anderem).
 
 Container sind "chroot" mit einem Marketing Budget.
 
-Verschiedene Namespaces auf Linux:
+**Verschiedene Namespaces auf Linux:**
 
 ![Namespaces](img/namespaces.png)
+
+- [Mehr infos für interessierte](https://linux-de.com/?p=13894)
 
 ## Union-Dateisysteme
 
@@ -81,11 +86,15 @@ Container-Laufzeitumgebung nur einen dünnen Überlagerungsspeicher für jeden
 Container zuweisen, während die darunterliegenden Image-Schichten geteilt werden
 können.
 
-Overlay-FS-Diagramm: ![Union-Dateisysteme](img/union-dateisysteme.png)
+**Overlay-FS-Diagramm:**
+
+![Union-Dateisysteme](img/union-dateisysteme.png)
+
+## Fazit
 
 Docker bietet ein bequemes Benutzererlebnis, indem die zugrunde liegenden
 Technologien (Namespaces, Cgroups und Union-Dateisysteme) in eine einfach zu
-bedienende Desktop-Anwendung verpackt werden.
+bedienende CLI-Anwendung mit zusätzlichem Desktop-GUI verpackt werden.
 
 ## Zusätzliche Ressourcen
 
@@ -93,7 +102,11 @@ Für eine tiefere Erkundung dieser Themen, schauen Sie sich diesen großartigen
 Live-Stream von Joshua Jebaraj an, der cgroups und namespaces erkundet:
 
 <div className="grid"><div>
+
   <YouTube id="9ivFrXgB2Zg" />
+
 </div><div>
+
   <YouTube id="kPJaXbUtR70" />
+
 </div></div>

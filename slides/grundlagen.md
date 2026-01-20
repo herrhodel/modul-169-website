@@ -51,6 +51,13 @@ footer: BBZBL / Lukas Hodel / Services mit Containern bereitstellen
 
 ---
 
+# 🚧 <br/> Modul ist aktiv in Bearbeitung!
+
+- Ich werde jede Woche das Modul erweitern, die Webseite ist noch nicht 100%
+  final!
+
+---
+
 # LBs
 
 ::: columns
@@ -161,13 +168,6 @@ Die Konzentration der Mitschüler muss gewährleistet sein.
 
 ---
 
-# Modul ist aktiv in Bearbeitung! 🚧
-
-- Ich werde jede Woche das Modul erweitern, die Webseite ist noch nicht 100%
-  final!
-
----
-
 <!-- _class: big center -->
 
 # Was versteht Ihr unter einem Container?
@@ -178,10 +178,10 @@ Die Konzentration der Mitschüler muss gewährleistet sein.
 
 ![bg right fit](./img/alamy-rheinlaender-handelswagen.jpg)
 
-- Verschiedene Dinge
-- Verschiedene Grössen
+- verschiedene Dinge
 
-- Schwierig zu Transportieren
+- verschiedene Grössen
+- schwierig zu Transportieren
 
 ---
 
@@ -199,20 +199,6 @@ Die Konzentration der Mitschüler muss gewährleistet sein.
 ![inline fit](./img/pexels-container-lkw.jpg)
 
 :::
-
----
-
-# Vorteile von Container
-
-![bg right fit](img/works-on-my-machine.png)
-
-- Portabilität
-- Konsistenz
-- Ressourcenschonend
-- einfache Skalierung
-- schnelle Bereitstellung
-- Isolation
-- einfachere Entwicklung
 
 ---
 
@@ -249,6 +235,20 @@ Lesen Sie auf der Modulwebseite Woche 1
 
 ---
 
+# Vorteile von Container
+
+![bg right fit](img/works-on-my-machine.png)
+
+- Portabilität
+- Konsistenz
+- Ressourcenschonend
+- einfache Skalierung
+- schnelle Bereitstellung
+- Isolation
+- einfachere Entwicklung
+
+---
+
 # :pencil: Auftrag
 
 ::: columns l60
@@ -260,7 +260,7 @@ Lesen Sie auf der Modulwebseite Woche 1
 ::: split
 
 - :dna: Einzelarbeit
-- :clock1: 15min
+- :clock1: Bis zur grossen Pause
 
 :::
 
@@ -277,7 +277,7 @@ Lesen Sie auf der Modulwebseite Woche 1
 ::: split
 
 - :dna: Einzelarbeit
-- :clock1: Bis zur grossen Pause
+- :clock1: 15 min
 
 :::
 
