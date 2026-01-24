@@ -11,6 +11,8 @@ sidebar_position: 1
 
 ## Präsentation
 
+<Slide name="git-docker" />
+
 ## Themen
 
 <DocCardList />

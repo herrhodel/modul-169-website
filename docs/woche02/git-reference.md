@@ -4,8 +4,6 @@ sidebar_position: 3
 
 # Git Referenz
 
-Git Guide: https://rogerdudler.github.io/git-guide
-
 ## Wichtigste Befehle
 
 | Aktion                    | Git-Befehl                                                     | Erklärung                                                    |

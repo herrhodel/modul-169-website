@@ -3,9 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "docusaurus": "docusaurus",
+    "docusaurus": "docusaurus start --no-open --port 4000",
     "start": "wireit",
-    "start-poll": "docusaurus start --poll 1 --host 0.0.0.0",
     "start:marp": "wireit",
     "build": "docusaurus build",
     "build:marp": "marp --engine ./src/marp/async-engine.mjs --html --allow-local-files --theme slides/theme.css -I slides --output build/slides",

@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Git: Quick Start
+# Git: Start
 
 Dieses Tutorial zeigt dir Schritt für Schritt, wie du Git auf deinem Rechner
 verwendest. Es benötigt noch keinen GitHub account.
@@ -11,13 +11,76 @@ verwendest. Es benötigt noch keinen GitHub account.
 
 Nach diesem Tutorial kannst du:
 
-- ein neues Git-Repository erstellen (init)
-- Änderungen speichern (add/commit)
-- alte Stände anschauen und wiederherstellen (restore)
-- mit Entwicklungszweigen arbeiten (branch/switch/checkout)
-- Änderungen verschiedener Entwicklungszweigen zusammenführen (merge)
+- Git auf dem System installieren.
+- Ein neues Git-Repository erstellen (_init_).
+- Änderungen speichern (_add/commit_).
+- Alte Stände anschauen und wiederherstellen (_restore_).
+- Mit Entwicklungszweigen arbeiten (_branch/switch/checkout_).
+- Änderungen verschiedener Entwicklungszweigen zusammenführen (_merge_).
 
-## 🧱 1. Neues Projekt und Repository anlegen
+## 💿 1. Git Installieren
+
+<div className="grid border"><div>
+
+### Windows
+
+- Zum letzten [Git for Windows Installer](https://git-scm.com/install/windows)
+  navigieren.
+- Den Installer starten und den Instruktionen folgen.
+  - Überall kann der Standard übernommen werden.
+  - 💥 **Wichtig**: Unbedingt **Git Bash** selektieren!
+- _Git Bash_ starten. (Suche im Windows Startmenü nach "Git")
+- mit `git version` prüfen, ob Git installiert ist.
+
+</div><div>
+
+### MacOS und Linux
+
+Mac und Linux kommen mit einer vorinstallierten Version von Git.
+
+- Für MacOS empfehle ich [Homebrew (brew)](https://brew.sh/) dann
+  - `brew install git`
+
+</div></div>
+
+✅ **Was passiert:**  
+Git (und Git Bash für Windows) sollte nun auf dem System vorhanden sein.
+
+:::info Git Bash
+
+_Git Bash_ ist eine Shell für Windows, die die basic Unix-Befehle wie `cp`,
+`rm`, `cd` und co kennt. Es ist jedoch keine 100% POSIX kompatible shell!
+
+:::
+
+## ⚙️ 2. Git Konfigurieren
+
+Zuerst sollte der Benutzer gesetzt sein. Mit `--global` wird angegeben, dass
+dieser Benutzer für jedes Repository verwendet werden soll.
+
+- 💥 **Wichitg**: Schaut, dass Ihr die gleiche E-Mail-Adresse verwendet, wie der
+  Account bei GitHub!
+
+```bash
+git config --global user.name "Dein Name!"
+git config --global user.email "dein.name@bbzbl-it.ch"
+```
+
+Dann müsst Ihr noch angeben, welchen Editor verwendet werden soll. Z.B. für
+Merge-Conflicts. Für alle, die VS-Code installiert haben, sollte folgenden
+Befehl gehen. VS-Code registriert sich als `code` im Terminal:
+
+```bash
+git config --global core.editor "code --wait"
+```
+
+✅ **Was passiert:**
+
+- Wenn Ihr mit Git arbeitet, wird automatisch der richtige Benutzer für die
+  "commits" gesetzt.
+- Wenn Git einen Editor öffnen möchte, wird euer gewünschter geöffnet.
+
+## 🧱 3. Neues Projekt und Repository anlegen
 
 Erstelle zunächst einen neuen Projektordner und initialisiere Git darin.
 
@@ -31,7 +94,7 @@ git init
 Git legt den versteckten Ordner `.git` an. Ab jetzt verfolgt Git alle Änderungen
 in diesem Verzeichnis.
 
-## 📄 2. Erste Datei erstellen
+## 📄 4. Erste Datei erstellen
 
 Erstelle z.B. eine Datei `hallo.txt` mit einfachem Inhalt.
 
@@ -47,7 +110,7 @@ git status
 
 Du siehst, dass `hallo.txt` als **untracked file** angezeigt wird.
 
-## ✍️ 3. Datei für den nächsten Commit vormerken
+## ✍️ 5. Datei für den nächsten Commit vormerken
 
 ```bash
 git add hallo.txt
@@ -62,7 +125,7 @@ git status
 ✅ **Was passiert:** Die Datei ist jetzt **staged**, also bereit, in den
 nächsten Commit aufgenommen zu werden.
 
-## 💾 4. Änderungen committen
+## 💾 6. Änderungen committen
 
 Speichere deine aktuelle Version im Repository:
 
@@ -83,7 +146,7 @@ git status
 
 Es gibt nun keine Änderungen mehr.
 
-## 🔍 5. Historie ansehen
+## 🔍 7. Historie ansehen
 
 ```bash
 git log
@@ -92,7 +155,7 @@ git log
 Das zeigt dir eine Liste mit allen bisherigen Commits, IDs, Zeitstempeln und
 Nachrichten.
 
-## ✏️ 6. Datei ändern und erneut committen
+## ✏️ 8. Datei ändern und erneut committen
 
 Bearbeite deine Datei:
 
@@ -136,7 +199,7 @@ werden.
 
 Jetzt hast du **zwei Commits** – du kannst jederzeit zwischen ihnen wechseln.
 
-## ⏮️ 7. Zu einem früheren Stand wechseln
+## ⏮️ 9. Zu einem früheren Stand wechseln
 
 Schau dir die Commit-Historie an:
 
@@ -166,7 +229,7 @@ git checkout main
 
 Schau in `hallo.txt` – der Text-Absatz ist wieder da!
 
-## 🌿 8. Einen neuen Branch erstellen
+## 🌿 10. Einen neuen Branch erstellen
 
 Erstelle einen neuen Entwicklungszweig:
 
@@ -200,9 +263,9 @@ git add README.md
 git commit -m "Neue Datei: README.md hinzugefügt"
 ```
 
-## 🔗 9. Branch in Hauptzweig mergen
+## 🔗 11. Branch in Hauptzweig (_main_) mergen
 
-Wechsle zurück zum Hauptbranch:
+Wechsle zurück zum Hauptbranch (_main_):
 
 ```bash
 git switch main
@@ -225,7 +288,7 @@ git merge neues-feature
 
 ✅ **Ergebnis:** `README.md` ist nun auch in deinem Hauptzweig vorhanden.
 
-## 📜 10. Dateien und Status prüfen
+## 12. Dateien und Status prüfen
 
 Aktuellen Projektzustand anzeigen:
 
@@ -239,7 +302,7 @@ Gesamte Historie (auch mit Branches):
 git log --oneline --graph --all
 ```
 
-## 🧩 11. Bonus: Git-Änderungen rückgängig machen
+## 🧩 13. Bonus: Git-Änderungen rückgängig machen
 
 Wenn du versehentlich eine Datei bearbeitet hast und sie zurücksetzen willst:
 

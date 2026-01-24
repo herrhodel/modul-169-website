@@ -163,7 +163,6 @@ Die Konzentration der Mitschüler muss gewährleistet sein.
 
 # Bei Fragen
 
-- im Gruppenchat auf Google: 169-INP24C
 - Mich persönlich kontaktieren per Mail
 
 ---
