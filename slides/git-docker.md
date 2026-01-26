@@ -332,3 +332,10 @@ eine** von "Multistage Dockerfile".
 :::
 
 ---
+
+# Hausaufgaben
+
+- Üben, üben, üben.
+
+- Es gibt genug Übungen.
+- Sie können sie auch wiederholen! Das schadet nicht ;)
