@@ -56,11 +56,13 @@ _Git Bash_ ist eine Shell für Windows, die die basic Unix-Befehle wie `cp`,
 ## ⚙️ 2. Git Konfigurieren
 
 Neu wird der standard Entwicklungszweit `main` genannt. Früher war das `master`.
-Damit wir hier keine Inkonsistenz generieren, solltet Ihr folgenden Befehl ausführen.
+Damit wir hier keine Inkonsistenz generieren, solltet Ihr folgenden Befehl
+ausführen.
 
 ```bash
 git config set --global init.defaultBranch main
 ```
+
 Zuerst sollte der Benutzer gesetzt sein. Mit `--global` wird angegeben, dass
 dieser Benutzer für jedes Repository verwendet werden soll.
 

@@ -20,80 +20,23 @@ footer: BBZBL / Lukas Hodel / Services mit Containern bereitstellen
 
 - **Repetition**
 
-- **Git**<br/> _Installieren / Grundlagen / GitHub_
+- **Modul 169 VM**
+
+- **Git**<br/>
+  - Grundlagen
+  - Installieren
+  - Konfigurieren
+  - SSH-Key
+
+::: split
+
 - **Docker Image**<br/> _Schichtenarchitektur / Eigenschaften / Bilden eines
   Image_
 
-:::split
-
 - **Dockerfile**<br/> _Befehle / Caching / Multistage Build_
 - **Übungen**<br/> _zu Docker Image und Dockerfile_
-- **Docker Hub**
-- eigene **Apps containerisieren**
-
-:::
-
----
-
-<!-- _class: big center -->
-
-# Regeln 👮‍♀️
-
-## _INP24C_ spezial
-
----
-
-# §1 Fokus und Geräte
-
-::: columns
-
-Die **digitalen Geräte**: 📱, 💻, etc.
-
-- immer nur auf **Aufforderung der Lehrkraft**
-- immer nur zur **Bearbeitung der gestellten Aufgaben**
-
-**Private Aktivitäten sind untersagt**: _unter anderem Social Media, Spiele,
-Videos, private E-Mails/Chats, Surfen, Shoppen, etc._
-
-::: split s1
-
-### 1. Verwarnung
-
-- **Mündliche** Ermahnung durch Lehrperson
-
-### 2. Verwarnung
-
-- 👨‍🏫 Das Gerät ist für den **Rest der Lektion bei der Lehrperson** zu
-  hinterlegen.
-- 🚨 **Absenz**, wenn dadurch nicht gearbeitet werden kann!
-- 🗣️ **Meldung an den Berufsbildner**.
-
-:::
-
----
-
-# §2 Ruhe und Umgangsformen
-
-::: columns
-
-Die Konzentration der Mitschüler muss gewährleistet sein.
-
-- **Lärm ist zu vermeiden**<br/> z.B. laute Gespräche, Geräusche, Rufen.
-
-- **Freundlicher, höflicher und respektvoller** Umgangston
-
-::: split s1
-
-### 1. Verwarnung
-
-- **Mündliche** Ermahnung durch Lehrperson.
-- Evtl. auf separaten Arbeitsplatz versetzen.
-
-### 2. Verwarnung
-
-- 🚪 Für den Rest der Lektion **aus dem Unterricht gewiesen**.
-- 🚨 Die gesamte Lektion gilt als **Absenz**.
-- 🗣️ **Meldung an den Berufsbildner**.
+  <!-- - **Docker Hub** -->
+  <!-- - eigene **Apps containerisieren** -->
 
 :::
 
@@ -123,7 +66,37 @@ Die Konzentration der Mitschüler muss gewährleistet sein.
 
 <!-- _class: big center -->
 
+# Modul 169 VM
+
+## Live Demo der Umgebung durch Lehrperson
+
+---
+
+# 📖 Auftrag
+
+::: columns l60
+
+Lesen Sie das Kapitel "Git"
+
+- [Git Start](https://herrhodel.github.io/modul-169-website/docs/woche02/git)
+
+::: split
+
+- :dna: Einzelarbeit
+- :clock1: 10 Min
+
+:::
+
+---
+
+<!-- _class: big center -->
+
 # GIT Demo
+
+- GitHub Projekte zeigen
+- Commits
+- Änderungen sehen
+- PR vs Mergen
 
 ---
 
@@ -131,16 +104,22 @@ Die Konzentration der Mitschüler muss gewährleistet sein.
 
 ::: columns l60
 
-Lesen und Machen Sie die Übung "Git: Start".
+Machen Sie die Übung "Git: Start".
 
 - [Git Start](https://herrhodel.github.io/modul-169-website/docs/woche02/uebungen/aufgabe-git)
 
 ::: split
 
 - :dna: Einzelarbeit
-- :clock1: 30 Min
+- :clock1: Bis zur grossen Pause
 
 :::
+
+---
+
+<!-- _class: big center -->
+
+# 🛌 20 Min Pause
 
 ---
 
@@ -158,12 +137,6 @@ Lesen und Machen Sie die Übung "Git: Übungs-Repository".
 - :clock1: bis zur Grossen Pause
 
 :::
-
----
-
-<!-- _class: big center -->
-
-# 🛌 20 Min Pause
 
 ---
 
