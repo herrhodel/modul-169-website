@@ -10,8 +10,8 @@ sidebar_label: 🏠 Modul 169
 |                 Woche                  |     Datum      | Thema                                 | Leistungsbewertung                                                           |
 | :------------------------------------: | :------------: | :------------------------------------ | :--------------------------------------------------------------------------- |
 |   [Woche&nbsp;1](./woche01/index.md)   |   27.10.2025   | Modulübersicht / Container Grundlagen |                                                                              |
-|   [Woche&nbsp;2](./woche02/index.md)   |   03.11.2025   | Git / GitHub / Dockerimages           |                                                                              |
-|   [Woche&nbsp;3](./woche03/index.md)   |   10.11.2025   | Dateimanagement                       |                                                                              |
+|   [Woche&nbsp;2](./woche02/index.md)   |   03.11.2025   | Git / GitHub / Docker Images          |                                                                              |
+|   [Woche&nbsp;3](./woche03/index.md)   |   10.11.2025   | Docker Images / Dateimanagement       |                                                                              |
 |   [Woche&nbsp;4](./woche04/index.md)   |   17.11.2025   | Arbeiten an Aufgaben                  | [**LB1: Theoretische Grundlagen von Container**](/docs/beurteilungen/LB1.md) |
 |   [Woche&nbsp;5](./woche05/index.md)   |   24.11.2025   | Netzwerk                              |                                                                              |
 |   [Woche&nbsp;6](./woche06/index.md)   |   01.12.2025   | Docker-Compose                        |                                                                              |
