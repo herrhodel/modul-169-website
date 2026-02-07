@@ -4,6 +4,7 @@ import LiteYouTubeEmbed from "react-lite-youtube-embed";
 import DocCardList from "@theme/DocCardList";
 import DocCard from "@theme/DocCard";
 import Slide from "../components/Slide";
+import CardLink from "../components/CardLink";
 
 export default {
   // Re-use the default mapping
@@ -14,4 +15,5 @@ export default {
   DocCardList: DocCardList,
   DocCard: DocCard,
   Slide: Slide,
+  CardLink: CardLink,
 };
