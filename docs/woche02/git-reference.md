@@ -20,6 +20,40 @@ sidebar_position: 2
 | Branch mergen             | `git merge <branch>`                                           | Änderungen in den aktuellen Entwicklungszweig zusammenführen |
 | Datei wiederherstellen    | `git restore <datei>`                                          | Rückgängig machen                                            |
 
+## SSH auf Ubuntu-VM einrichten
+
+:::caution Nach jedem Starten der VM nötig
+
+- Dies muss **jedes Mal nach dem Starten der VM** gemacht werden, da die VM beim
+  Stoppen alle Daten verliert.
+- Alte SSH Keys können aus GitHub wieder entfernt werden.
+
+:::
+
+:::danger nur auf Linux
+
+- Dies geht nur auf einer Linux machine, wie z.B. der VM zum Modul
+
+:::
+
+1. Ein Terminal öffnen
+2. SSH-Key generieren, folgenden Befehl ausführen.
+   ```bash
+   ssh-keygen -t ed25519 -C "name.vorname@bbzbl-it.ch"
+   ```
+3. Inhalt der Datei `~/.ssh/id_ed25519.pub` kopieren. SSH-Public-Key
+4. SSH-Public-Key auf Github unter Account -> Settings -> SHH and GPG keys ->
+   hinzufügen.
+5. Git Konfigurieren
+   ```bash
+   git config --global user.name "Vorname Name"
+   git config --global user.email "name.vorname@bbzbl-it.ch"
+   ```
+6. Repository Klonen
+   ```bash
+   git clone <git-repository-ssh-url>
+   ```
+
 ## Use-Cases
 
 ### 🧱 1. Neues Git-Repository erstellen
