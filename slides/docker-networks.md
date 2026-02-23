@@ -177,8 +177,7 @@ docker network rm my-network
 
 # Physikalische Netzwerk Diagramme
 
-![inline fit](img/physical-network-generic-example.png)
-![inline fit](img/cisco-diagram-example.png)
+![inline height:500px](./img/network-physikalisch.svg)
 
 ---
 

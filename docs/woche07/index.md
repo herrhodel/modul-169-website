@@ -6,10 +6,14 @@ sidebar_position: 1
 
 ## Ziel
 
-4. Plant und realisiert die servicespezifischen Sicherheitsanforderungen.
+6. Stellt die Services in der definierten Umgebung reproduzierbar bereit.
 
 ## Präsentation
 
 ## Themen
 
 <DocCardList />
+
+## Links
+
+- https://github.com/pmsipilot/docker-compose-viz
