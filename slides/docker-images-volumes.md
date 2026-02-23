@@ -8,7 +8,7 @@ footer: BBZBL / Lukas Hodel / Services mit Containern bereitstellen
 
 <!-- _class: big center -->
 
-# Docker Images / Volumes asdf
+# Docker Images / Volumes
 
 ## Modul 169
 
