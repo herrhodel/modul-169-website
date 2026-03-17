@@ -16,8 +16,8 @@ sidebar_label: 🏠 Modul 169
 |                                        | 16.02.2026 <br/> 23.02.2026 | 🥁 Fasnachtsferien 🪈                 |                                                                |
 | [**Woche&nbsp;5**](./woche05/index.md) |       **02.03.2026**        | **Netzwerk**                          | [**LB1: Theoretische Grundlagen**](/docs/beurteilungen/LB1.md) |
 |   [Woche&nbsp;6](./woche06/index.md)   |         09.03.2026          | Docker-Compose                        |                                                                |
-|   [Woche&nbsp;7](./woche07/index.md)   |         16.03.2026          | Monitoring                            |                                                                |
-|   [Woche&nbsp;8](./woche08/index.md)   |         23.03.2026          | Open-Source-Projekt "dockerisieren"   |                                                                |
+|   [Woche&nbsp;7](./woche07/index.md)   |         16.03.2026          | Arbeiten an Aufgaben                  |                                                                |
+|   [Woche&nbsp;8](./woche08/index.md)   |         23.03.2026          | Docker Swarm Mode / Security          |                                                                |
 |                                        | 30.03.2026 <br/> 06.04.2026 | 🕊️ Osterferien                        |                                                                |
 | [**Woche&nbsp;9**](./woche09/index.md) |       **13.04.2026**        | **Modulabschlussprüfung**             | [**LB2: Praktische Prüfung**](/docs/beurteilungen/LB2.md)      |
 

@@ -6,9 +6,12 @@ sidebar_position: 1
 
 ## Ziel
 
-7. Administriert und überwacht die bereitgestellten Services.
+4. Plant und realisiert die servicespezifischen Sicherheitsanforderungen.
+5. Administriert und überwacht die bereitgestellten Services.
 
 ## Präsentation
+
+<Slide name="docker-swarm-mode" />
 
 ## Themen
 
