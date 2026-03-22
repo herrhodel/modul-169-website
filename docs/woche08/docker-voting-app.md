@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Docker Voting App
 
 Um den Swarm Mode zu demonstrieren, werden wir in dieser Übung alle Ubuntu VMs

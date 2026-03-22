@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 # Docker Swarm Mode
 
 Docker Swarm Mode ein integriertes Tool von Docker zur Orchestrierung von
@@ -52,7 +55,7 @@ Docker Swarm erlaubt jedoch nur images und keine Builds. Das heisst Docker Swarm
 ist nicht für das Entwickeln gedacht, sondern für das "Orchestrieren"
 vorhandener Services in der Produktion.
 
-## Gängige Befehle
+## *Gängige Befehle*
 
 ```bash
 docker swarm init

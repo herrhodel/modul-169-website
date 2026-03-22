@@ -2353,9 +2353,9 @@
     "@lit-labs/ssr-dom-shim" "^1.5.0"
 
 "@marp-team/marp-cli@^4.2.3":
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/@marp-team/marp-cli/-/marp-cli-4.3.0.tgz#d05ca8735fdbdcb57cac77ca37ffdd8f65a081ac"
-  integrity sha512-Ywqjk9eIV2pubzua7946JrvL8zk7G/74PvbsT/hxDjWJ7ox5gXL4PqLyF4KcvxQgtYT/WbkwDnNge4h+uNNy0g==
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/@marp-team/marp-cli/-/marp-cli-4.3.1.tgz#2ac5a64ce6aeeb0270ae7a502ba5fbc75c527443"
+  integrity sha512-REj2PUTDhHiFsKxzh8AF90YrApEbNcOU7eZ8TKF3sF0b5O91lyaZMH2E5y7o/bfdFP70N8l7vyqXA4pdVQ+EIA==
   dependencies:
     "@marp-team/marp-core" "^4.3.0"
     "@marp-team/marpit" "^3.2.1"
@@ -8245,9 +8245,9 @@ katex@^0.16.22:
     commander "^8.3.0"
 
 katex@^0.16.33:
-  version "0.16.37"
-  resolved "https://registry.yarnpkg.com/katex/-/katex-0.16.37.tgz#aae346d30ebfde946c915405a48099d71ab9b149"
-  integrity sha512-TIGjO2cCGYono+uUzgkE7RFF329mLLWGuHUlSr6cwIVj9O8f0VQZ783rsanmJpFUo32vvtj7XT04NGRPh+SZFg==
+  version "0.16.38"
+  resolved "https://registry.yarnpkg.com/katex/-/katex-0.16.38.tgz#45f7b9253ac6b6a80fd168ee893fe0209b755338"
+  integrity sha512-cjHooZUmIAUmDsHBN+1n8LaZdpmbj03LtYeYPyuYB7OuloiaeaV6N4LcfjcnHVzGWjVQmKrxxTrpDcmSzEZQwQ==
   dependencies:
     commander "^8.3.0"
 
