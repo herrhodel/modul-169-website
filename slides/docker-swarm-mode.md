@@ -24,7 +24,7 @@ footer: BBZBL / Lukas Hodel / Services mit Containern bereitstellen
 ::: split
 
 - **Security**
-- **Übungen**<br/> _zu Docker Compose_ (Woche 06)
+- **Übungen**<br/> _Security_ (Woche 06)
 
 :::
 
@@ -412,3 +412,36 @@ secrets:
   db_password:
     file: ./password.txt
 ```
+
+---
+
+# 📖 Auftrag
+
+::: columns l60
+
+Lesen Sie "Docker Security" von der Woche 8
+
+- [Docker Security](https://herrhodel.github.io/modul-169-website/docs/woche08/docker-security)
+
+::: split
+
+- :dna: Einzelarbeit
+- :clock1: 15 min
+
+:::
+
+---
+
+# 📝 Auftrag
+
+::: columns l60
+
+Gehen Sie durch alle `Dockerfile` Aufgaben durch und versuchen Sie mit KI Ihrer
+wahl die Aufgaben sicherer zu machen.
+
+::: split
+
+- :dna: Einzelarbeit
+- :clock1: 15 min
+
+:::
