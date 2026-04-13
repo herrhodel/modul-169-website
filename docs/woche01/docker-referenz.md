@@ -84,6 +84,12 @@ docker run --rm -it --name <container_name> <image_name>
 docker run --rm -it --name meine-busybox busybox:1.37.0
 ```
 
+#### Erstellen eines Containers mit Environmentvariablen
+
+```bash
+docker run -e MY_ENV=Value -e MY_OTHER_ENV=Value <image_name>
+```
+
 ### docker start
 
 #### **Starten** eines Containers
@@ -113,7 +119,6 @@ docker stop <container_name>
 ```bash
 docker rm <container_name>
 ```
-
 ### docker ps
 
 #### Laufende **Container auflisten**
