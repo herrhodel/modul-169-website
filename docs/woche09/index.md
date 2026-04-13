@@ -6,8 +6,8 @@ sidebar_position: 1
 
 ## Ziel
 
+- 🎯 Abschlussprüfung
+
 ## Präsentation
 
-## Themen
-
-<DocCardList />
+<Slide name="woche09" />
