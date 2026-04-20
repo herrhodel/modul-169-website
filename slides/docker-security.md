@@ -319,7 +319,7 @@ history -d 99 -> delete entry number 99, effective after logout of current shell
 
 Lesen Sie "Docker Security" von der Woche 4
 
-- [Docker Security](/docs/woche08/docker-security)
+- [Docker Security](/docs/woche04/docker-security)
 
 ::: split
 
@@ -334,7 +334,7 @@ Lesen Sie "Docker Security" von der Woche 4
 
 ::: columns l60
 
-Gehen Sie durch alle [`Dockerfile` Aufgaben](https://michisalm.github.io/modul-169-website/docs/woche02/uebungen/aufgabe-einfaches-dockerfile) von Woche 2 durch und versuchen Sie mit KI Ihrer
+Gehen Sie durch alle [`Dockerfile` Aufgaben](/docs/woche02/uebungen/aufgabe-einfaches-dockerfile) von Woche 2 durch und versuchen Sie mit KI Ihrer
 Wahl die Aufgaben sicherer zu machen.
 
 ::: split
@@ -351,7 +351,7 @@ Wahl die Aufgaben sicherer zu machen.
 
 ::: columns l60
 
-Lösen Sie die [Übungen der Woche 4](https://michisalm.github.io/modul-169-website/docs/woche04/uebungen/aufgabe-security-01) .
+Lösen Sie die [Übungen der Woche 4](/docs/woche04/uebungen/aufgabe-security-01).
 
 ::: split
 
