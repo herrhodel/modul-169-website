@@ -44,6 +44,35 @@ footer: BBZBL / Lukas Hodel / Services mit Containern bereitstellen
 
 <!-- _class: big center -->
 
+# Regeln 👮‍♀️
+
+---
+
+# §1 Fokus und Geräte
+
+Die **digitalen Geräte**: 📱, 💻, etc.
+
+- immer nur auf **Aufforderung der Lehrkraft**
+
+- immer nur zur **Bearbeitung der gestellten Aufgaben**
+
+**Private Aktivitäten sind untersagt**: _unter anderem Social Media, Spiele,
+Videos, private E-Mails/Chats, Surfen, Shoppen, etc._
+
+---
+
+# §2 Ruhe und Umgangsformen
+
+Die Konzentration der Mitschüler muss gewährleistet sein.
+
+- **Lärm ist zu vermeiden**<br/> z.B. laute Gespräche, Geräusche, Rufen.
+
+- **Freundlicher, höflicher und respektvoller** Umgangston
+
+---
+
+<!-- _class: big center -->
+
 # Was versteht Ihr unter einem Container?
 
 ---
@@ -78,7 +107,7 @@ footer: BBZBL / Lukas Hodel / Services mit Containern bereitstellen
 
 Lesen Sie das Kapitel "Git"
 
-- [Git Start](https://herrhodel.github.io/modul-169-website/docs/woche02/git)
+- [Git](https://herrhodel.github.io/modul-169-website/docs/woche02/git)
 
 ::: split
 
@@ -93,10 +122,11 @@ Lesen Sie das Kapitel "Git"
 
 # GIT Demo
 
-- GitHub Projekte zeigen
-- Commits
-- Änderungen sehen
-- PR vs Mergen
+GitHub Übersicht
+
+Commits
+
+Änderungen sehen
 
 ---
 
@@ -134,7 +164,7 @@ Lesen und Machen Sie die Übung "Git: Übungs-Repository".
 ::: split
 
 - :dna: Einzelarbeit
-- :clock1: bis zur Grossen Pause
+- :clock1: 30 min
 
 :::
 
