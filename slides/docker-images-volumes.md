@@ -126,7 +126,7 @@ Machen Sie auf der Modulwebseite Woche 2
 ::: split
 
 - :dna: Einzelarbeit
-- :clock1: 45 Min
+- :clock1: 20 Min
 
 :::
 
