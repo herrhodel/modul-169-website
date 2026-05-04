@@ -67,7 +67,7 @@ Die Konzentration der Mitschüler muss gewährleistet sein.
 
 # Was versteht Ihr unter Git?
 
-- Was ist der Unterschied von Git und GitHub?
+Was ist der Unterschied von Git und GitHub?
 
 ---
 
@@ -75,7 +75,7 @@ Die Konzentration der Mitschüler muss gewährleistet sein.
 
 # Wofür dient ein Dockerfile?
 
-- Wieso sollte man es mit Git versionieren?
+Wieso sollte man es mit Git versionieren?
 
 ---
 
@@ -85,9 +85,8 @@ Die Konzentration der Mitschüler muss gewährleistet sein.
 
 Lesen Sie auf der Modulwebseite Woche 2
 
-- [Image Builden](https://michisalm.github.io/modul-169-website/docs/woche02/docker-images#image-bilden)
 - [Caching beim Erstellen von Docker-Images](https://michisalm.github.io/modul-169-website/docs/woche02/docker-images#caching-beim-erstellen-von-docker-images)
-- [Multistage Builds](https://michisalm.github.io/modul-169-website/docs/woche02/docker-images#multistage-builds)
+- [Optimierung](https://michisalm.github.io/modul-169-website/docs/woche02/docker-images#optimierung)
 
 :::split
 
@@ -138,7 +137,7 @@ Machen Sie auf der Modulwebseite Woche 2
 ::: split
 
 - :dna: Einzelarbeit
-- :clock1: 20 Min
+- :clock1: bis zur grossen Pause
 
 :::
 
