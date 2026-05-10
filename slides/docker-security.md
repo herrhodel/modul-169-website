@@ -85,6 +85,12 @@ CMD ["node", "index.js"]
 
 :::
 
+<!-- 
+--- List all Packages etc.
+- for ubuntu: dpkg -l | wc -l
+- for node:20-alpine: apk info | wc -l
+ -->
+
 ---
 
 # Kein Root-User nutzen
