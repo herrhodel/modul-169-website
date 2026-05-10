@@ -139,6 +139,12 @@ COPY --chown=node:node . .
 CMD ["node", "index.js"]
 ```
 
+<!--
+--- Demo User
+`docker run -it --rm node:20-alpine sh`
+`cat /etc/passwd`
+ -->
+
 ---
 
 # Multistage verkleinert produktives Image
