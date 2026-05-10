@@ -113,7 +113,7 @@ CMD ["node", "index.js"] # App starten
 
 - :bulb: Weniger Rechte ist immer sicherer!
 
-<!-- `--system` Creates a system user (UID < 1000, no login shell, no password) -->
+<!-- `--system` Creates a system user (UID < 1000, no login shell, no password, used to run services) -->
 
 
 ---
