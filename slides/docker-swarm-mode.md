@@ -156,7 +156,7 @@ services:
 
 Zusammen erarbeiten wir die Aufgabe "Docker Voting App"
 
-- [Docker Voting App](https://michisalm.github.io/modul-169-website/docs/woche08/docker-voting-app)
+- [Docker Voting App](/docs/woche08/docker-voting-app)
 
 ::: split
 

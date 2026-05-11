@@ -74,8 +74,8 @@ Die Konzentration der Mitschüler muss gewährleistet sein.
 
 Machen Sie beliebige Übungen den vorherigen Wochen.
 
-- [Übungen Mounts](https://herrhodel.github.io/modul-169-website/docs/woche03/uebungen-mounts/aufgabe-mounts-01)
-- [Übungen Volumes](https://herrhodel.github.io/modul-169-website/docs/woche03/uebungen-volumes/aufgabe-volume-05)
+- [Übungen Mounts](/docs/woche03/uebungen-mounts/aufgabe-mounts-01)
+- [Übungen Volumes](/docs/woche03/uebungen-volumes/aufgabe-volume-05)
 
 ::: split
 
@@ -319,7 +319,7 @@ history -d 99 -> delete entry number 99, effective after logout of current shell
 
 Lesen Sie "Docker Security" von der Woche 4
 
-- [Docker Security](https://michisalm.github.io/modul-169-website/docs/woche04/docker-security)
+- [Docker Security](/docs/woche08/docker-security)
 
 ::: split
 

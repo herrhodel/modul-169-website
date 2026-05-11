@@ -45,7 +45,7 @@ footer: BBZBL / Lukas Hodel / Michael Salm / Services mit Containern bereitstell
 
 # Modulwebseite
 
-- [Webseite](https://michisalm.github.io/modul-169-website/docs)
+- [Webseite](/docs)
 
 - [Übungs Repository](https://github.com/herrhodel/modul-169-exercises)
 
@@ -142,7 +142,7 @@ Alle Themen vom Modul
 
 Lesen Sie auf der Modulwebseite Woche 1
 
-- [Grundlagen der Virtualisierung](https://michisalm.github.io/modul-169-website/docs/woche01/grundlagen)
+- [Grundlagen der Virtualisierung](/docs/woche01/grundlagen)
 
 ::: split
 
@@ -189,7 +189,7 @@ Lesen Sie auf der Modulwebseite Woche 1
 
 Lesen Sie auf der Modulwebseite Woche 1
 
-- [Container Bausteine](https://michisalm.github.io/modul-169-website/docs/woche01/container-linux-opt)
+- [Container Bausteine](/docs/woche01/container-linux-opt)
 
 ::: split
 
@@ -206,7 +206,7 @@ Lesen Sie auf der Modulwebseite Woche 1
 
 Lesen Sie auf der Modulwebseite Woche 1
 
-- [Grundkonzepte von Docker](https://michisalm.github.io/modul-169-website/docs/woche01/docker-grundlagen)
+- [Grundkonzepte von Docker](/docs/woche01/docker-grundlagen)
 
 ::: split
 
@@ -235,12 +235,12 @@ Lesen Sie auf der Modulwebseite Woche 1
 
 Installieren Sie Docker Desktop oder Docker gemäss Anleitung der Modulwebseite.
 
-- [Docker Installation](https://michisalm.github.io/modul-169-website/docs/woche01/uebungen/aufgabe-docker-install)
+- [Docker Installation](/docs/woche01/uebungen/aufgabe-docker-install)
 
 Lösen Sie Übungen zu den Themen
 
-- [Docker CLI](https://michisalm.github.io/modul-169-website/docs/woche01/uebungen/aufgabe-docker-cli)
-- [Docker Desktop](https://michisalm.github.io/modul-169-website/docs/woche01/uebungen/aufgabe-docker-desktop)
+- [Docker CLI](/docs/woche01/uebungen/aufgabe-docker-cli)
+- [Docker Desktop](/docs/woche01/uebungen/aufgabe-docker-desktop)
 
 ::: split
 
@@ -257,7 +257,7 @@ Lösen Sie Übungen zu den Themen
 
 Lösen Sie Übungen zum Thema
 
-- [Praktische Anwendungen](https://michisalm.github.io/modul-169-website/docs/woche01/uebungen/aufgabe-pratkische-andwendungen)
+- [Praktische Anwendungen](/docs/woche01/uebungen/aufgabe-pratkische-andwendungen)
 
 ::: split
 
