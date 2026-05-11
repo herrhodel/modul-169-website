@@ -85,8 +85,8 @@ Wieso sollte man es mit Git versionieren?
 
 Lesen Sie auf der Modulwebseite Woche 2
 
-- [Caching beim Erstellen von Docker-Images](https://herrhodel.github.io/modul-169-website/docs/woche02/docker-images#caching-beim-erstellen-von-docker-images)
-- [Optimierung](https://herrhodel.github.io/modul-169-website/docs/woche02/docker-images#optimierung)
+- [Caching beim Erstellen von Docker-Images](/docs/woche02/docker-images#caching-beim-erstellen-von-docker-images)
+- [Optimierung](/docs/woche02/docker-images#optimierung)
 
 :::split
 
@@ -103,7 +103,7 @@ Lesen Sie auf der Modulwebseite Woche 2
 
 Machen Sie auf der Modulwebseite Woche 2
 
-- [Einfaches Dockerfile](https://herrhodel.github.io/modul-169-website/docs/woche02/uebungen/aufgabe-einfaches-dockerfile)
+- [Einfaches Dockerfile](/docs/woche02/uebungen/aufgabe-einfaches-dockerfile)
 
 :::split
 
@@ -120,7 +120,7 @@ Machen Sie auf der Modulwebseite Woche 2
 
 Machen Sie auf der Modulwebseite Woche 2
 
-- [Dockerhub Tutorial](https://herrhodel.github.io/modul-169-website/docs/woche02/uebungen/aufgabe-docker-hub)
+- [Dockerhub Tutorial](/docs/woche02/uebungen/aufgabe-docker-hub)
 
 ::: split
 
@@ -164,7 +164,7 @@ ls -la
 
 Lesen Sie auf der Modulwebseite Woche 3
 
-- [Docker Volume und Mounts](https://herrhodel.github.io/modul-169-website/docs/woche03/docker-volume)
+- [Docker Volume und Mounts](/docs/woche03/docker-volume)
 
 ::: split
 
@@ -289,8 +289,8 @@ INSERT INTO contacts (contact_id, name) VALUES (1, 'Name');
 
 Machen Sie die Übungen unter Woche 3
 
-- [Übungen Mounts](https://herrhodel.github.io/modul-169-website/docs/woche03/uebungen-mounts/aufgabe-mounts-01)
-- [Übungen Volumes](https://herrhodel.github.io/modul-169-website/docs/woche03/uebungen-volumes/aufgabe-volume-05)
+- [Übungen Mounts](/docs/woche03/uebungen-mounts/aufgabe-mounts-01)
+- [Übungen Volumes](/docs/woche03/uebungen-volumes/aufgabe-volume-05)
 
 ::: split
 
