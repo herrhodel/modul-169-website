@@ -18,13 +18,14 @@ footer: BBZBL / Lukas Hodel / Michael Salm / Services mit Containern bereitstell
 
 :::columns
 
-- **Repetition**
-- **An Aufgaben der letzten Wochen arbeiten**
+- **Docker Security**
+- **Übungen**<br/> _zu Docker Security_
 
 ::: split
 
-- **Docker Security**
-- **Übungen**<br/> _zu Docker Security_
+- **Repetition**
+- **An Aufgaben der letzten Wochen arbeiten**
+- **Übungstest auf Classtime**
 
 :::
 
@@ -285,5 +286,21 @@ Wahl die Aufgaben sicherer zu machen.
 
 - :dna: Einzelarbeit
 - :clock1: 15 min
+
+:::
+
+
+---
+
+# 📝 Auftrag
+
+::: columns l60
+
+Lösen Sie die [Übungen der Woche 4](https://michisalm.github.io/modul-169-website/docs/woche04/uebungen/aufgabe-security-01) .
+
+::: split
+
+- :dna: Einzelarbeit
+- :clock1: 45 min
 
 :::
