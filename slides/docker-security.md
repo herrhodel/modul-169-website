@@ -30,7 +30,62 @@ footer: BBZBL / Lukas Hodel / Services mit Containern bereitstellen
 
 ---
 
-# Dockerfile
+<!-- _class: big center -->
+
+# Regeln 👮‍♀️
+
+---
+
+# §1 Fokus und Geräte
+
+Die **digitalen Geräte**: 📱, 💻, etc.
+
+- immer nur auf **Aufforderung der Lehrkraft**
+
+- immer nur zur **Bearbeitung der gestellten Aufgaben**
+
+**Private Aktivitäten sind untersagt**: _unter anderem Social Media, Spiele,
+Videos, private E-Mails/Chats, Surfen, Shoppen, etc._
+
+---
+
+# §2 Ruhe und Umgangsformen
+
+Die Konzentration der Mitschüler muss gewährleistet sein.
+
+- **Lärm ist zu vermeiden**<br/> z.B. laute Gespräche, Geräusche, Rufen.
+
+- **Freundlicher, höflicher und respektvoller** Umgangston
+
+---
+
+# Wofür werden Docker Volumen verwendet?
+
+---
+
+# Worin unterscheiden sich Volumen zu Bind Mounts?
+
+---
+
+# :pencil: Auftrag
+
+::: columns l60
+
+Machen Sie beliebige Übungen den vorherigen Wochen.
+
+- [Übungen Mounts](https://herrhodel.github.io/modul-169-website/docs/woche03/uebungen-mounts/aufgabe-mounts-01)
+- [Übungen Volumes](https://herrhodel.github.io/modul-169-website/docs/woche03/uebungen-volumes/aufgabe-volume-05)
+
+::: split
+
+- :dna: Einzelarbeit
+- :clock1: bis zur grossen Pause
+
+:::
+
+---
+
+# Sicherheitsprinzipen im Dockerfile
 
 ```mermaid
 graph TD
