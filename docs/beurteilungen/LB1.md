@@ -9,5 +9,13 @@
 - [Docker Volumes](/docs/woche03/docker-volume.md)
 - [Security](/docs/woche04/docker-security.md)
 
-## Erlaubte Hilfsmittel
-An der LB1 sind keine Hilfsmittel erlaubt.
+## Hilfsmittel
+
+- Es sind keine Hilfsmittel erlaubt
+
+## Umfeld
+
+- Es handelt sich um eine Onlineprüfung auf
+  [classtime.com](https://classtime.com).
+- Die Prüfung wird an den Workstations, in einer gesicherten Klassenarbeit
+  Umgebung (**e-user**) geschrieben.
