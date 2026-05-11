@@ -21,12 +21,11 @@ footer: BBZBL / Lukas Hodel / Abschlussprüfung
 - **Mount**: Doppelklick auf "LDAP Home einbinden"
   - e-user.name/Klassenarbeiten/INA24C-M169-LB2/INA24C-M169-LB2.zip
 
-
 ## 📖 Hilfe (Alles andere gibt Note 1)
 
 - Die Datei **README.md** beinhaltet immer die ==**wichtigsten Namen zum
   Kopieren**==.
-- https://herrhodel.github.io/modul-169-website
+- [Modulwebseite M169](/docs)
 - https://docs.docker.com ==**(Ohne Agent Grodon)**==
 
 ---

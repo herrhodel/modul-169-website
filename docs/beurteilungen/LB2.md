@@ -24,8 +24,7 @@
 
 ## Hilfe
 
-- Es darf die [Modulwebseite](https://herrhodel.github.io/modul-169-website) als
-  Spick verwendet werden.
+- Es darf die gesamte Modulwebseite M169 als Spick verwendet werden.
 - Es darf die [offizielle Referenz](https://docs.docker.com/reference/) auf
   docker.com verwendet werden.
   - **ACHTUNG:** der KI-Mode (Gordon) von dockerdocs **ist nicht erlaubt und
