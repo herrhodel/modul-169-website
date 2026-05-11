@@ -24,6 +24,7 @@ jobs:
         run: yarn build
       - name: Build slides
         run: |
+          yarn build:marp:prepare && \
           yarn build:marp && \
           yarn run build:marp-copy-images && \
           yarn run build:marp-copy-js

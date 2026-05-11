@@ -73,8 +73,8 @@ Die Konzentration der Mitschüler muss gewährleistet sein.
 
 Machen Sie beliebige Übungen den vorherigen Wochen.
 
-- [Übungen Mounts](https://herrhodel.github.io/modul-169-website/docs/woche03/uebungen-mounts/aufgabe-mounts-01)
-- [Übungen Volumes](https://herrhodel.github.io/modul-169-website/docs/woche03/uebungen-volumes/aufgabe-volume-05)
+- [Übungen Mounts](/docs/woche03/uebungen-mounts/aufgabe-mounts-01)
+- [Übungen Volumes](/docs/woche03/uebungen-volumes/aufgabe-volume-05)
 
 ::: split
 
@@ -292,7 +292,7 @@ secrets:
 
 Lesen Sie "Docker Security" von der Woche 8
 
-- [Docker Security](https://herrhodel.github.io/modul-169-website/docs/woche08/docker-security)
+- [Docker Security](/docs/woche08/docker-security)
 
 ::: split
 
