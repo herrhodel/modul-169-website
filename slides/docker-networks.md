@@ -89,12 +89,11 @@ Die Konzentration der Mitschüler muss gewährleistet sein.
 
 # Ablauf und Regeln Prüfung
 
+- Verräumen Sie alle digitalen Geräte (Laptop, Smartphone, Smartwatch etc.)
 - Loggen Sie sich als **e-**\<Benutzername\> ein, z.B. e-vorname.nachname
-- Öffnen Sie Firefox direkt auf dem Host (nicht Windows-VM oder M169-VM!)
+- Öffnen Sie Firefox direkt auf dem Host (nicht Windows-VM oder M169-VM)
 - Öffnen Sie [classtime.com](https://classtime.com)
-- Der Session Code lautet
-  - 123456 (ohne NTA)
-  - 654321 (mit NTA)
+- Der Session Code wird bekannt gegeben
 - Unter *Dein Name* schreiben Sie Ihren Vornamen gefolgt von Ihrem Nachnamen hinein, z.B. **Eliane Rosenkranz**
 
 <span style="color: red"> --> Bei Verwendung unerlaubter Hilfsmittel oder Täuschungsversuchen erhalten Sie die Note 1 und Ihr Lehrbetrieb wird informiert. </span>
