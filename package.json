@@ -17,16 +17,21 @@
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids"
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "dev": "wireit"
   },
   "wireit": {
     "start": {
-      "command": "cross-env DOCUSAURUS_IGNORE_SSG_WARNINGS=true docusaurus start --no-open --port 4000",
+      "command": "docusaurus start --no-open --port 4000",
       "service": {
         "readyWhen": {
           "lineMatches": "Docusaurus website is running at.*"
         }
-      },
+      }
+    },
+    "dev": {
+      "command": "cross-env DOCUSAURUS_IGNORE_SSG_WARNINGS=true docusaurus start --no-open --port 4000",
+      "service": true,
       "dependencies": [
         "start:marp"
       ]
