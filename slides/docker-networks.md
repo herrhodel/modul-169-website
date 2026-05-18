@@ -90,7 +90,7 @@ Die Konzentration der Mitschüler muss gewährleistet sein.
 - Öffnen Sie Firefox direkt auf dem Host (nicht Windows-VM oder M169-VM).
 
 - Öffnen Sie [classtime.com](https://classtime.com).
-  - Der Session Code lautet: **654321**
+  - Der Session Code lautet: **NCZECW**
   - Unter _Dein Name_ schreiben Sie Ihren **Vornamen gefolgt von Ihrem Nachnamen**
     hinein, z.B. Eliane Rosenkranz.
 
