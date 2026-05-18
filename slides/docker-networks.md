@@ -59,10 +59,6 @@ Die Konzentration der Mitschüler muss gewährleistet sein.
 
 ---
 
-# Prüfung
-
----
-
 <!-- _class: big -->
 
 ## Repetition
@@ -96,7 +92,8 @@ Die Konzentration der Mitschüler muss gewährleistet sein.
 - Der Session Code wird bekannt gegeben
 - Unter *Dein Name* schreiben Sie Ihren Vornamen gefolgt von Ihrem Nachnamen hinein, z.B. **Eliane Rosenkranz**
 
-<span style="color: red"> --> Bei Verwendung unerlaubter Hilfsmittel oder Täuschungsversuchen erhalten Sie die Note 1 und Ihr Lehrbetrieb wird informiert. </span>
+==**🚨 Bei Verwendung unerlaubter Hilfsmittel oder Täuschungsversuchen erhalten
+Sie die Note 1 und Ihr Lehrbetrieb wird informiert.**==
 
 
 ---
