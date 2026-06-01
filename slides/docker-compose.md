@@ -150,9 +150,7 @@ Lesen Sie das Kapitel "Docker Compose"
 
 ::: columns l60
 
-Lesen und Machen Sie die Übungen 2-9.
-
-- Erstellen Sie je auch eine Visualisierung vom docker-compose File
+Lesen und machen Sie die Übungen von dieser Woche ("Starten von Images" etc.).
 
 ::: split
 
