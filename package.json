@@ -7,7 +7,6 @@
     "start": "wireit",
     "start:marp": "wireit",
     "build": "cross-env DOCUSAURUS_IGNORE_SSG_WARNINGS=true docusaurus build",
-    "build:marp:prepare": "node ./src/util/replace-path-in-slides.mjs",
     "build:marp": "marp --engine ./src/marp/async-engine.mjs --html --allow-local-files --theme slides/theme.css -I slides --output build/slides",
     "build:marp-pdf": "marp --engine ./src/marp/async-engine.mjs --html --allow-local-files --theme slides/theme.css -I slides --output build/slides --pdf --pdf-outlines --pdf-outlines.pages=false",
     "build:marp-copy-images": "cp -r slides/img build/slides/img",
