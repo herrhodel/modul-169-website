@@ -9,7 +9,7 @@
 - [Docker Volumes](/docs/woche03/docker-volume.md)
 - [Security](/docs/woche04/docker-security.md)
 
-## Hilfe
+## Hilfsmittel
 
 - Es sind keine Hilfsmittel erlaubt
 

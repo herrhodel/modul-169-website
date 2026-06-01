@@ -3,7 +3,7 @@ marp: true
 theme: bbzbl
 paginate: true
 header: Modul 169 - Docker Swarm Mode
-footer: BBZBL / Lukas Hodel / Services mit Containern bereitstellen
+footer: BBZBL / Lukas Hodel / Michael Salm / Services mit Containern bereitstellen
 ---
 
 <!-- _class: big center -->
@@ -164,3 +164,4 @@ Zusammen erarbeiten wir die Aufgabe "Docker Voting App"
 - :clock1: 20 min
 
 :::
+

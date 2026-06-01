@@ -3,7 +3,7 @@ marp: true
 theme: bbzbl
 paginate: true
 header: Modul 169 - Docker Networks
-footer: BBZBL / Lukas Hodel / Services mit Containern bereitstellen
+footer: BBZBL / Lukas Hodel / Michael Salm / Services mit Containern bereitstellen
 ---
 
 <!-- _class: big center -->
@@ -83,16 +83,14 @@ Die Konzentration der Mitschüler muss gewährleistet sein.
 
 ---
 
-# 🏁 Prüfung
+# Ablauf und Regeln Prüfung
 
-- Verräumen Sie alle digitalen Geräte (Laptop, Smartphone, Smartwatch etc.).
-- Loggen Sie sich als ==**e-**\<Benutzername\>== ein, z.B. **e-vorname.nachname**.
-- Öffnen Sie Firefox direkt auf dem Host (nicht Windows-VM oder M169-VM).
-
-- Öffnen Sie [classtime.com](https://classtime.com).
-  - Der Session Code lautet: **NCZECW**
-  - Unter _Dein Name_ schreiben Sie Ihren **Vornamen gefolgt von Ihrem Nachnamen**
-    hinein, z.B. Eliane Rosenkranz.
+- Verräumen Sie alle digitalen Geräte (Laptop, Smartphone, Smartwatch etc.)
+- Loggen Sie sich als **e-**\<Benutzername\> ein, z.B. e-vorname.nachname
+- Öffnen Sie Firefox direkt auf dem Host (nicht Windows-VM oder M169-VM)
+- Öffnen Sie [classtime.com](https://classtime.com)
+- Der Session Code wird bekannt gegeben
+- Unter *Dein Name* schreiben Sie Ihren Vornamen gefolgt von Ihrem Nachnamen hinein, z.B. **Eliane Rosenkranz**
 
 ==**🚨 Bei Verwendung unerlaubter Hilfsmittel oder Täuschungsversuchen erhalten
 Sie die Note 1 und Ihr Lehrbetrieb wird informiert.**==

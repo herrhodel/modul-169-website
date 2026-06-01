@@ -3,7 +3,7 @@ marp: true
 theme: bbzbl
 paginate: true
 header: Modul 169 - Grundlagen
-footer: BBZBL / Lukas Hodel / Services mit Containern bereitstellen
+footer: BBZBL / Lukas Hodel / Michael Salm / Services mit Containern bereitstellen
 ---
 
 <!-- _class: big center -->
@@ -53,8 +53,7 @@ footer: BBZBL / Lukas Hodel / Services mit Containern bereitstellen
 
 # 🚧 <br/> Modul ist aktiv in Bearbeitung!
 
-- Ich werde jede Woche das Modul erweitern, die Webseite ist noch nicht 100%
-  final!
+- Es ist möglich, dass die Modulwebseite leichte Änderungen erfährt.
 
 ---
 
@@ -66,7 +65,7 @@ footer: BBZBL / Lukas Hodel / Services mit Containern bereitstellen
 
 Theoretische Grundlagen von Container
 
-- **Wann**: Woche 4
+- **Wann**: Woche 5
 
 - **Gewichtung**: 50%
 

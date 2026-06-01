@@ -3,7 +3,7 @@ marp: true
 theme: bbzbl
 paginate: true
 header: Modul 169 - Docker Security
-footer: BBZBL / Lukas Hodel / Services mit Containern bereitstellen
+footer: BBZBL / Lukas Hodel / Michael Salm / Services mit Containern bereitstellen
 ---
 
 <!-- _class: big center -->
@@ -18,13 +18,14 @@ footer: BBZBL / Lukas Hodel / Services mit Containern bereitstellen
 
 :::columns
 
-- **Repetition**
-- **An Aufgaben der letzten Wochen arbeiten**
+- **Docker Security**
+- **Übungen**<br/> _zu Docker Security_
 
 ::: split
 
-- **Docker Security**
-- **Übungen**<br/> _zu Docker Security_
+- **Repetition**
+- **An Aufgaben der letzten Wochen arbeiten**
+- **Übungstest auf Classtime**
 
 :::
 
@@ -140,6 +141,12 @@ CMD ["node", "index.js"]
 
 :::
 
+<!-- 
+--- List all Packages etc.
+- for ubuntu: dpkg -l | wc -l
+- for node:20-alpine: apk info | wc -l
+ -->
+
 ---
 
 # Kein Root-User nutzen
@@ -160,7 +167,10 @@ COPY --chown=appuser:appuser . .
 CMD ["node", "index.js"] # App starten
 ```
 
-- :bulb: Wehniger Rechte ist immer sicherer!
+- :bulb: Weniger Rechte ist immer sicherer!
+
+<!-- `--system` Creates a system user (UID < 1000, no login shell, no password, used to run services) -->
+
 
 ---
 
@@ -184,6 +194,12 @@ COPY --chown=node:node . .
 
 CMD ["node", "index.js"]
 ```
+
+<!--
+--- Demo User
+`docker run -it --rm node:20-alpine sh`
+`cat /etc/passwd`
+ -->
 
 ---
 
@@ -269,7 +285,7 @@ fnox exec -- docker run -d \
 
 ```bash
 # Datei mit Secret erstellen, Achtung: Bash-History leeren!
-echo "MY_PASSWORD=super-geheim-123" > .password.txt
+echo "MY_PASSWORD=super-geheim-123" > password.txt
 ```
 
 ```yaml
@@ -284,15 +300,26 @@ secrets:
     file: ./password.txt
 ```
 
+<!-- 
+--- Secrets vs. Env Vars ---
+- secrets are mounted to `/run/secrets/<secret-name>
+- secrets as `env variables` are visible in `docker inspect`, secrets files are not -> more secure! 
+-->
+<!-- 
+--- Bash History ---
+history -> list entries with line numbers 
+history -d 99 -> delete entry number 99, effective after logout of current shell -->
+
+
 ---
 
 # 📖 Auftrag
 
 ::: columns l60
 
-Lesen Sie "Docker Security" von der Woche 8
+Lesen Sie "Docker Security" von der Woche 4
 
-- [Docker Security](/docs/woche08/docker-security)
+- [Docker Security](/docs/woche04/docker-security)
 
 ::: split
 
@@ -307,12 +334,28 @@ Lesen Sie "Docker Security" von der Woche 8
 
 ::: columns l60
 
-Gehen Sie durch alle `Dockerfile` Aufgaben durch und versuchen Sie mit KI Ihrer
-wahl die Aufgaben sicherer zu machen.
+Gehen Sie durch alle [`Dockerfile` Aufgaben](/docs/woche02/uebungen/aufgabe-einfaches-dockerfile) von Woche 2 durch und versuchen Sie mit KI Ihrer
+Wahl die Aufgaben sicherer zu machen.
 
 ::: split
 
 - :dna: Einzelarbeit
 - :clock1: 15 min
+
+:::
+
+
+---
+
+# 📝 Auftrag
+
+::: columns l60
+
+Lösen Sie die [Übungen der Woche 4](/docs/woche04/uebungen/aufgabe-security-01).
+
+::: split
+
+- :dna: Einzelarbeit
+- :clock1: 45 min
 
 :::

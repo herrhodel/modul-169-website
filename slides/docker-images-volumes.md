@@ -3,7 +3,7 @@ marp: true
 theme: bbzbl
 paginate: true
 header: Modul 169 - Docker Images / Volumes
-footer: BBZBL / Lukas Hodel / Services mit Containern bereitstellen
+footer: BBZBL / Lukas Hodel / Michael Salm / Services mit Containern bereitstellen
 ---
 
 <!-- _class: big center -->
@@ -114,6 +114,18 @@ Machen Sie auf der Modulwebseite Woche 2
 
 ---
 
+# Demo: Docker Hub
+
+```bash
+docker login
+
+docker tag <image-name> <username>/<image-name:tag>
+
+docker push <user-name>/<image-name:tag>
+```
+
+---
+
 # :pencil: Auftrag
 
 ::: columns l60
@@ -140,9 +152,13 @@ Machen Sie auf der Modulwebseite Woche 2
 # Demo: Daten im Container
 
 ```bash
+# -it -> interactive shell mode   -w -> workdir
 docker run -it --name volume-test -w /app ubuntu
 echo "Hallo Welt" > hallo.txt
+ls -la
+cat hallo.txt
 exit
+
 docker container rm volume-test
 docker run -it --name volume-test -w /app ubuntu
 ls -la
@@ -177,7 +193,7 @@ Lesen Sie auf der Modulwebseite Woche 3
 
 <!-- _class: auto-table-3 -->
 
-# Docker Volumes vs Bind Mounds
+# Docker Volumes vs Bind Mounts
 
 | Merkmal      | Docker Volumes                                        | Bind Mounts                                                |
 | ------------ | ----------------------------------------------------- | ---------------------------------------------------------- |
@@ -254,7 +270,7 @@ Lesen Sie auf der Modulwebseite Woche 3
 - Bind Mounts bei der Entwicklung **für Quellcode** und
   **Konfigurationsdateien** die selbst in Git versionisiert sind.
 
-- **Nie** in Produktion!
+- **Nie** in Produktion (Ausnahme siehe oben)!
 
 :::
 
