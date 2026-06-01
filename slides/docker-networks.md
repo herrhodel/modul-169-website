@@ -95,7 +95,6 @@ Die Konzentration der Mitschüler muss gewährleistet sein.
 ==**🚨 Bei Verwendung unerlaubter Hilfsmittel oder Täuschungsversuchen erhalten
 Sie die Note 1 und Ihr Lehrbetrieb wird informiert.**==
 
-
 ---
 
 <!-- _class: big -->
