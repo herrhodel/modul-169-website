@@ -163,7 +163,7 @@ Lesen Sie das Kapitel "Docker Network"
 
 Lesen und Machen Sie die Übung 6: Netzwerk Grundlagen
 
-- [Übung 6: Netzwerk Grundlagen](/docs/woche05/uebungen-network/aufgabe-network-06)
+- [Übung 1: Netzwerk Grundlagen](/docs/woche05/uebungen-network/aufgabe-network-01)
 
 ::: split
 
@@ -222,11 +222,11 @@ Lesen und Machen Sie die Übung 6: Netzwerk Grundlagen
 
 ::: columns l60
 
-Lesen und Machen Sie die Übungen 7-9
+Lesen und Machen Sie die Übungen 2-4
 
-- [Übung 7: Docker Networking und DNS](/docs/woche05/uebungen-network/aufgabe-networks-07)
-- [Übung 8: MariaDB und phpMyAdmin im Docker-Netzwerk](/docs/woche05/uebungen-network/aufgabe-networks-08)
-- [Übung 9: Diagramme](/docs/woche05/uebungen-network/aufgabe-networks-09)
+- [Übung 2: Docker Networking und DNS](/docs/woche05/uebungen-network/aufgabe-networks-02)
+- [Übung 3: MariaDB und phpMyAdmin im Docker-Netzwerk](/docs/woche05/uebungen-network/aufgabe-networks-03)
+- [Übung 4: Diagramme](/docs/woche05/uebungen-network/aufgabe-networks-04)
 
 ::: split
 
