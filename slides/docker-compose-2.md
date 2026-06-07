@@ -20,12 +20,11 @@ footer:
 :::columns
 
 - **Repetition**
-- **Übungen zu Docker Compose (Woche 07)**
+- **Übungen zu Docker Compose (Woche 06)**
 
 ::: split
 
-- **Docker Compose**
-- **Übungen**<br/> _zu Docker Compose_ (Woche 06)
+- **Übungen zu Docker Compose (Woche 07)**
 
 :::
 
