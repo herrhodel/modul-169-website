@@ -3,7 +3,8 @@ marp: true
 theme: bbzbl
 paginate: true
 header: Modul 169 - Docker Compose 2
-footer: BBZBL / Lukas Hodel / Michael Salm / Services mit Containern bereitstellen
+footer:
+  BBZBL / Lukas Hodel / Michael Salm / Services mit Containern bereitstellen
 ---
 
 <!-- _class: big center -->
@@ -98,34 +99,13 @@ Die Konzentration der Mitschüler muss gewährleistet sein.
 
 ::: columns l60
 
-Lesen und Machen Sie die Übungen von Dieser Woche
-
-- [Starten von Images](/docs/woche07/aufgaben/aufgabe-compose-new-00)
-- [Bind Mounts](/docs/woche07/aufgaben/aufgabe-compose-new-01)
-- [Volumen](/docs/woche07/aufgaben/aufgabe-compose-new-02)
-- [Netzwerk](/docs/woche07/aufgaben/aufgabe-compose-new-03)
-- [Diagramm](/docs/woche07/aufgaben/aufgabe-compose-new-04)
-
-::: split
-
-- :dna: Einzelarbeit
-- :clock1: bis zur grossen Pause
-
-:::
-
----
-
-# 📝 Auftrag
-
-::: columns l60
-
 Lesen und Machen Sie die Übungen von **letzer** Woche
 
-- [Starten von Images](/docs/woche07/aufgaben/aufgabe-compose-new-00)
-- [Bind Mounts](/docs/woche07/aufgaben/aufgabe-compose-new-01)
-- [Volumen](/docs/woche07/aufgaben/aufgabe-compose-new-02)
-- [Netzwerk](/docs/woche07/aufgaben/aufgabe-compose-new-03)
-- [Diagramm](/docs/woche07/aufgaben/aufgabe-compose-new-04)
+- [Starten von Images](/docs/woche06/aufgaben/aufgabe-compose-new-00)
+- [Bind Mounts](/docs/woche06/aufgaben/aufgabe-compose-new-01)
+- [Volumen](/docs/woche06/aufgaben/aufgabe-compose-new-02)
+- [Netzwerk](/docs/woche06/aufgaben/aufgabe-compose-new-03)
+- [Diagramm](/docs/woche06/aufgaben/aufgabe-compose-new-04)
 
 ::: split
 
@@ -140,9 +120,9 @@ Lesen und Machen Sie die Übungen von **letzer** Woche
 
 ::: columns l60
 
-Lesen und Machen Sie die Übungen 2-9 der Woche 06.
+Lesen und Machen Sie die Übungen 2-9 der Woche 07.
 
-- [Docker Compose Aufgaben Woche 06](/docs/woche06/aufgaben/)
+- [Docker Compose Aufgaben Woche 07](/docs/woche07/aufgaben/)
 
 - Erstellen Sie je auch eine Visualisierung vom docker-compose File
 

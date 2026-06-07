@@ -96,9 +96,32 @@ Alle Themen vom Modul
 
 ---
 
-# Bei Fragen
+<!-- _class: big center -->
 
-- Mich persönlich kontaktieren per Mail oder Google Chat.
+# Regeln 👮‍♀️
+
+---
+
+# §1 Fokus und Geräte
+
+Die **digitalen Geräte**: 📱, 💻, etc.
+
+- immer nur auf **Aufforderung der Lehrkraft**
+
+- immer nur zur **Bearbeitung der gestellten Aufgaben**
+
+**Private Aktivitäten sind untersagt**: _unter anderem Social Media, Spiele,
+Videos, private E-Mails/Chats, Surfen, Shoppen, etc._
+
+---
+
+# §2 Ruhe und Umgangsformen
+
+Die Konzentration der Mitschüler muss gewährleistet sein.
+
+- **Lärm ist zu vermeiden**<br/> z.B. laute Gespräche, Geräusche, Rufen.
+
+- **Freundlicher, höflicher und respektvoller** Umgangston
 
 ---
 

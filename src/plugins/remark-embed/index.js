@@ -97,8 +97,6 @@ function remarkEmbedPlugin() {
             }
             
             const codeContent = await response.text();
-            console.log("rawUrl", rawUrl);
-            console.log("content", codeContent);
             const lineContent = codeContent.split("\n");
             const path = url.split("#")[0];
             const hash = url.split("#")?.[1];
