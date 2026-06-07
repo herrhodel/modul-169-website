@@ -20,12 +20,11 @@ footer:
 :::columns
 
 - **Repetition**
-- **Übungen zu Docker Compose (Woche 07)**
+- **Übungen zu Docker Compose (Woche 06)**
 
 ::: split
 
-- **Docker Compose**
-- **Übungen**<br/> _zu Docker Compose_ (Woche 06)
+- **Übungen zu Docker Compose (Woche 07)**
 
 :::
 
@@ -35,42 +34,22 @@ footer:
 
 # Regeln 👮‍♀️
 
-## _INP24C_ spezial
-
 ---
 
 # §1 Fokus und Geräte
 
-::: columns
-
 Die **digitalen Geräte**: 📱, 💻, etc.
 
 - immer nur auf **Aufforderung der Lehrkraft**
+
 - immer nur zur **Bearbeitung der gestellten Aufgaben**
 
 **Private Aktivitäten sind untersagt**: _unter anderem Social Media, Spiele,
 Videos, private E-Mails/Chats, Surfen, Shoppen, etc._
 
-::: split s1
-
-### 1. Verwarnung
-
-- **Mündliche** Ermahnung durch Lehrperson
-
-### 2. Verwarnung
-
-- 👨‍🏫 Das Gerät ist für den **Rest der Lektion bei der Lehrperson** zu
-  hinterlegen.
-- 🚨 **Absenz**, wenn dadurch nicht gearbeitet werden kann!
-- 🗣️ **Meldung an den Berufsbildner**.
-
-:::
-
 ---
 
 # §2 Ruhe und Umgangsformen
-
-::: columns
 
 Die Konzentration der Mitschüler muss gewährleistet sein.
 
@@ -78,20 +57,101 @@ Die Konzentration der Mitschüler muss gewährleistet sein.
 
 - **Freundlicher, höflicher und respektvoller** Umgangston
 
-::: split s1
+---
 
-### 1. Verwarnung
+## Repetition
 
-- **Mündliche** Ermahnung durch Lehrperson.
-- Evtl. auf separaten Arbeitsplatz versetzen.
+# Was sind die Vorteile von Docker Compose gegenüber einzelnen \<docker run ...\> Befehlen?
 
-### 2. Verwarnung
+<!-- 
+- Übersichtlichkeit
+- Versionierung
+- Reproduzierbarkeit
+- Einfachheit
+-->
 
-- 🚪 Für den Rest der Lektion **aus dem Unterricht gewiesen**.
-- 🚨 Die gesamte Lektion gilt als **Absenz**.
-- 🗣️ **Meldung an den Berufsbildner**.
+---
 
-:::
+## Repetition
+
+# Wie wird eine Multi-Container-Anwendung mit Hilfe von Docker Compose definiert?
+
+<!-- mit Hilfe einer docker-compose.yml Datei -->
+
+---
+
+## Repetition
+
+# Wie ist der Aufbau eines docker-compose.yml?
+
+<!-- 
+- Unterteilung in Services (Container)
+- jeder Service enthält Konfigurationen wie Portmapping, Volume-Bindings, Netzwerk, Env-Variablen etc.
+- Netzwerke und Docker Volumes und weiteres können definiert werden
+
+Beispiel:
+---
+services:
+  web:
+    build: .
+    ports:
+      - "${APP_PORT}:5000"
+    environment:
+      - REDIS_HOST=${REDIS_HOST}
+      - REDIS_PORT=${REDIS_PORT}
+
+  redis:
+    image: redis:alpine
+-->
+
+---
+
+## Repetition
+
+# Wie kann die Reihenfolge der Services (Container) beim Starten festgelegt werden?
+
+<!-- 
+depends_on:
+  db:
+    condition: service_healthy
+
+healthcheck:
+  test: ...
+  timeout: 5s
+  retries: 20
+ -->
+
+---
+
+## Repetition
+
+# Wie kann man Umgebungsvariablen in einem docker-compose.yml verwenden?
+
+<!-- 
+environments:
+  MY_VAR: ${MY_VAR_FROM_ENV}
+  DIRECT: asdfjk 
+-->
+
+---
+
+## Repetition
+
+# Warum sollten Umgebungsvariablen in einer .env-Datei gespeichert und diese nicht ins Repo gepushed werden?
+
+<!-- 
+Aus Sicherheitsgründen, da in Umgebungsvariablen häufig sensible Angaben wie Passwörter oder Zugangstoken gespeichert werden.
+-->
+
+---
+
+## Repetition
+
+# Was macht der Befehl \<docker compose down\>?
+
+<!-- 
+Stoppt und entfernt alle Container und Netzwerk, welche von <docker compose up> erstellt wurden. 
+-->
 
 ---
 
