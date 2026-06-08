@@ -19,13 +19,12 @@ footer:
 
 :::columns
 
-- **Repetition**
-- **Übungen zu Docker Compose (Woche 07)**
+- **Übungen zu Docker Compose (Woche 06)**
 
 ::: split
 
 - **Docker Compose**
-- **Übungen**<br/> _zu Docker Compose_ (Woche 06)
+- **Übungen**<br/> _zu Docker Compose_ (Woche 07)
 
 :::
 
@@ -35,63 +34,28 @@ footer:
 
 # Regeln 👮‍♀️
 
-## _INP24C_ spezial
-
 ---
 
 # §1 Fokus und Geräte
 
-::: columns
-
 Die **digitalen Geräte**: 📱, 💻, etc.
 
 - immer nur auf **Aufforderung der Lehrkraft**
+
 - immer nur zur **Bearbeitung der gestellten Aufgaben**
 
 **Private Aktivitäten sind untersagt**: _unter anderem Social Media, Spiele,
 Videos, private E-Mails/Chats, Surfen, Shoppen, etc._
 
-::: split s1
-
-### 1. Verwarnung
-
-- **Mündliche** Ermahnung durch Lehrperson
-
-### 2. Verwarnung
-
-- 👨‍🏫 Das Gerät ist für den **Rest der Lektion bei der Lehrperson** zu
-  hinterlegen.
-- 🚨 **Absenz**, wenn dadurch nicht gearbeitet werden kann!
-- 🗣️ **Meldung an den Berufsbildner**.
-
-:::
-
 ---
 
 # §2 Ruhe und Umgangsformen
-
-::: columns
 
 Die Konzentration der Mitschüler muss gewährleistet sein.
 
 - **Lärm ist zu vermeiden**<br/> z.B. laute Gespräche, Geräusche, Rufen.
 
 - **Freundlicher, höflicher und respektvoller** Umgangston
-
-::: split s1
-
-### 1. Verwarnung
-
-- **Mündliche** Ermahnung durch Lehrperson.
-- Evtl. auf separaten Arbeitsplatz versetzen.
-
-### 2. Verwarnung
-
-- 🚪 Für den Rest der Lektion **aus dem Unterricht gewiesen**.
-- 🚨 Die gesamte Lektion gilt als **Absenz**.
-- 🗣️ **Meldung an den Berufsbildner**.
-
-:::
 
 ---
 
@@ -116,11 +80,19 @@ Lesen und Machen Sie die Übungen von **letzer** Woche
 
 ---
 
+# 💁 Aufgaben geändert
+
+- Bitte das Exercises Repo als ZIP herunterladen.
+- Der Ordner `/07-compose-freestyle/` in Ihr Repo kopieren.
+  - Falls sie bereits Übungen angefangen haben, ihr Ordner zuerst umbenennen.
+
+---
+
 # 📝 Auftrag
 
 ::: columns l60
 
-Lesen und Machen Sie die Übungen 2-9 der Woche 07.
+Lesen und Machen Sie die Übungen der Woche 07.
 
 - [Docker Compose Aufgaben Woche 07](/docs/woche07/aufgaben/)
 
