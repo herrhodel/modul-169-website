@@ -1,5 +1,7 @@
 ---
 sidebar_position: 2
+keywords:
+  - pdf
 ---
 
 # Container Bausteine 🦸‍♀️
@@ -23,11 +25,11 @@ erstellen, was das Erstellen und Teilen von Images schnell und effizient macht.
 
 **Hinweis**: Docker hat Container nicht erfunden. Zum Beispiel wurden
 LXC-Container ([https://linuxcontainers.org/](https://linuxcontainers.org/))
-bereits 2008 implementiert, fünf Jahre bevor Docker auf den Markt kam. Das heisst
-aber nicht, dass Docker keine grossen Fortschritte in der Benutzerfreundlichkeit
-gemacht hat, was dazu beigetragen hat, dass Container-Technologien eine breite
-Akzeptanz gefunden haben und Docker nach wie vor eine der beliebtesten
-Plattformen für Containerisierung bleibt.
+bereits 2008 implementiert, fünf Jahre bevor Docker auf den Markt kam. Das
+heisst aber nicht, dass Docker keine grossen Fortschritte in der
+Benutzerfreundlichkeit gemacht hat, was dazu beigetragen hat, dass
+Container-Technologien eine breite Akzeptanz gefunden haben und Docker nach wie
+vor eine der beliebtesten Plattformen für Containerisierung bleibt.
 
 ## Cgroups
 

@@ -1,3 +1,8 @@
+---
+keywords:
+  - pdf
+---
+
 # Docker Desktop
 
 Versuchen Sie nun alle Aufgaben **ohne Docker CLI** durchzuarbeiten. Gelingt

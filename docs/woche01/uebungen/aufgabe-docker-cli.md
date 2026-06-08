@@ -1,4 +1,9 @@
-#  Docker CLI
+---
+keywords:
+  - pdf
+---
+
+# Docker CLI
 
 Hier sind einige einfache Übungen, bei denen verschiedene Docker CLI-Befehle
 verwendet werden. Sie können den Terminal in Docker Desktop verwenden (unten auf

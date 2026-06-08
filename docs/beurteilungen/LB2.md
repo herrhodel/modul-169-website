@@ -1,3 +1,8 @@
+---
+keywords:
+  - pdf
+---
+
 # LB 2: Praktische Prüfung
 
 ## Themen

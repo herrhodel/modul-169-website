@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+keywords:
+  - pdf
 ---
 
 # W1 - Grundlagen

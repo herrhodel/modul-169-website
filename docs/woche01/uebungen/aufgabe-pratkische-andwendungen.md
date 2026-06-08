@@ -1,3 +1,8 @@
+---
+keywords:
+  - pdf
+---
+
 # Praktische Anwendungen
 
 Es gibt viele FOSS (Free and Open-Source-Software) Anwendungen, die bereits als
