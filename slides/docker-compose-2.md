@@ -176,11 +176,19 @@ Lesen und Machen Sie die Übungen von **letzer** Woche
 
 ---
 
+# 💁 Aufgaben geändert
+
+- Bitte das Exercises Repo als ZIP herunterladen.
+- Der Ordner `/07-compose-freestyle/` in Ihr Repo kopieren.
+  - Falls sie bereits Übungen angefangen haben, ihr Ordner zuerst umbenennen.
+
+---
+
 # 📝 Auftrag
 
 ::: columns l60
 
-Lesen und Machen Sie die Übungen 2-9 der Woche 07.
+Lesen und Machen Sie die Übungen der Woche 07.
 
 - [Docker Compose Aufgaben Woche 07](/docs/woche07/aufgaben/)
 
