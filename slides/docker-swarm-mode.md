@@ -3,7 +3,8 @@ marp: true
 theme: bbzbl
 paginate: true
 header: Modul 169 - Docker Swarm Mode
-footer: BBZBL / Lukas Hodel / Michael Salm / Services mit Containern bereitstellen
+footer:
+  BBZBL / Lukas Hodel / Michael Salm / Services mit Containern bereitstellen
 ---
 
 <!-- _class: big center -->
@@ -175,5 +176,49 @@ Zusammen erarbeiten wir die Aufgabe "Docker Voting App"
 
 # Monitoring mit Graphana
 
-Wir machen zusammen die Aufgabe
+- **Prometheus**: Pollt Metriken aktiv via HTTP.
+- **Grafana**: Visualisiert Daten in Dashboards.
+- **Nginx**: Dient als konkretes Monitoring-Beispiel.
 
+---
+
+# Datenfluss mit Nginx Exporter
+
+```mermaid
+graph LR
+    Nginx[Nginx Webserver] -->|Status Daten| Exp[Nginx Exporter]
+    Exp -->|HTTP GET /metrics| Prom[(Prometheus TSDB)]
+    Prom -->|PromQL| Grafana[Grafana Dashboard]
+
+    style Prom fill:#ff9933,stroke:#333
+    style Grafana fill:#ffdd67,stroke:#333
+```
+
+- **Poll-Prinzip**: Prometheus ruft Daten aktiv ab (Scraping).
+- **Nginx Exporter**: Übersetzt Nginx-Status in Prometheus-Format.
+- **Intervall**: Der Poll erfolgt zyklisch (z.B. alle 15 Sekunden).
+
+---
+
+# Kernkomponenten im Detail
+
+::: columns
+
+### 1. Nginx & Exporter
+
+- Nginx stellt `/nginx_status` bereit.
+- Exporter wandelt dies in Metriken um.
+
+### 2. Prometheus (Pull-Basis)
+
+- Holt Metriken aktiv vom Exporter ab.
+- Speichert Daten in der TSDB.
+
+::: split
+
+### 3. Grafana (Visualisierung)
+
+- Fragt Prometheus via PromQL ab.
+- Zeigt Requests und Fehlerraten live an.
+
+:::
