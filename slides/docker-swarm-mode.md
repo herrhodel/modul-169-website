@@ -167,3 +167,13 @@ Zusammen erarbeiten wir die Aufgabe "Docker Voting App"
 
 :::
 
+---
+
+# Testlauf LB2
+
+---
+
+# Monitoring mit Graphana
+
+Wir machen zusammen die Aufgabe
+
