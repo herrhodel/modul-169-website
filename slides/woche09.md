@@ -19,7 +19,9 @@ footer: BBZBL / Lukas Hodel / Michael Salm / Abschlussprüfung
 - **User**: ==**e**==-user.name
 - **VM**: m169-vm.vmx
 - **Mount**: Doppelklick auf "LDAP Home einbinden"
-  - e-user.name/Klassenarbeiten/INA24C-M169-LB2/INA24C-M169-LB2.zip
+  - e-user.name/Klassenarbeiten/INA24A-M169-LB2/INA24A-M169-LB2.zip
+- Mit `docker login` alle zuerst einloggen!
+  - Es dürfen eigene Laptops zum Einloggen verwendet werden.
 
 ## 📖 Hilfe (Alles andere gibt Note 1)
 
